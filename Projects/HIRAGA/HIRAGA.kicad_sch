@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e94c4895-4a77-4b8d-b859-3799a2696e1a")
+	(paper "A4")
+	(title_block
+		(company "Nautilus Művek")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 0 0)
+		(end 210.82 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2793758e-e159-43a4-b14a-0406eea5904c")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
