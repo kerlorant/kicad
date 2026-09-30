@@ -16,7 +16,6 @@
       "zones": 0.6
     },
     "prototype_zone_fills": false,
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -30,8 +29,31 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_items": [
+      "vias",
+      "footprint_text",
+      "footprint_anchors",
+      "ratsnest",
+      "grid",
+      "footprints_front",
+      "footprints_back",
+      "footprint_values",
+      "footprint_references",
+      "tracks",
+      "drc_errors",
+      "drawing_sheet",
+      "bitmaps",
+      "pads",
+      "zones",
+      "drc_warnings",
+      "drc_exclusions",
+      "locked_item_shadows",
+      "conflict_shadows",
+      "shapes",
+      "board_outline_area",
+      "ly_points"
+    ],
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -41,8 +63,8 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HIRAGA.kicad_prl",
-    "version": 3
+    "filename": "VF-2.kicad_prl",
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [],
@@ -63,7 +85,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "VF-2.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 52,
+          "pos_y": 392,
+          "size_x": 1238,
+          "size_y": 465
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],

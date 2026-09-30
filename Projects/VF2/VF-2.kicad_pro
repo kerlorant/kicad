@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -256,13 +256,13 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HIRAGA.kicad_pro",
-    "version": 1
+    "filename": "VF-2.kicad_pro",
+    "version": 3
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -272,15 +272,17 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -288,7 +290,6 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
@@ -416,25 +417,25 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "HIRAGA-Vegfok",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "HIRAGA.kicad_sch",
-        "name": "Gyökér",
-        "uuid": "e94c4895-4a77-4b8d-b859-3799a2696e1a"
+        "filename": "VF-2.kicad_sch",
+        "name": "VF-2",
+        "uuid": "a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C1-4,R1-8",
     "variants": []
   },
   "sheets": [
     [
-      "e94c4895-4a77-4b8d-b859-3799a2696e1a",
-      "Gyökér"
+      "a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f",
+      "VF-2"
     ]
   ],
   "text_variables": {},
