@@ -2116,37 +2116,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 0 0 0)
-		(size 210.82 149.86)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6178daa9-1a7a-4fdf-ad15-06152de1a32c")
+	(junction
+		(at 34.29 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5438a5b-e52a-46e8-8a9e-962383afb06c")
 	)
 	(junction
 		(at 55.88 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ea0910b-4265-4498-ae65-d534e50800f7")
-	)
-	(junction
-		(at 34.29 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c93745e5-1756-4e6f-afe5-5fa92d5eb65c")
+		(uuid "cc1eb432-2601-4a20-a98c-6ab2a752582c")
 	)
 	(wire
 		(pts
@@ -2160,6 +2140,26 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 67.31) (xy 40.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1d26f1-2c8f-439d-9c8e-62ba6cbdd9c9")
+	)
+	(wire
+		(pts
+			(xy 55.88 67.31) (xy 55.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ef6b49-e74c-4eb9-8417-0abaf449285e")
+	)
+	(wire
+		(pts
 			(xy 29.21 67.31) (xy 34.29 67.31)
 		)
 		(stroke
@@ -2167,16 +2167,6 @@
 			(type default)
 		)
 		(uuid "44536f3e-f6e3-4a25-b109-23766ed10082")
-	)
-	(wire
-		(pts
-			(xy 66.04 67.31) (xy 55.88 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cbc269e-1ff7-4b88-b0cc-f04a964fa560")
 	)
 	(wire
 		(pts
@@ -2190,13 +2180,33 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 67.31) (xy 40.64 67.31)
+			(xy 34.29 72.39) (xy 34.29 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b00fe621-92f5-4d11-b0b8-29d0ba96b688")
+		(uuid "94a84ff4-ebcd-4dc1-88d3-c79eae2d580b")
+	)
+	(wire
+		(pts
+			(xy 55.88 67.31) (xy 66.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a50560-595a-427e-a8a2-575be64233ca")
+	)
+	(wire
+		(pts
+			(xy 34.29 83.82) (xy 55.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4716f7-d304-4880-9286-3d184337dfd7")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3026,7 +3036,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 71.12 0)
+		(at 55.88 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3036,7 +3046,7 @@
 		(dnp no)
 		(uuid "b3ab1771-5f45-4731-88b1-20ed6bf79104")
 		(property "Reference" "C2"
-			(at 59.69 69.8499 0)
+			(at 59.69 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3047,7 +3057,7 @@
 			)
 		)
 		(property "Value" "47pF kerámia"
-			(at 50.8 78.994 0)
+			(at 50.8 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3058,7 +3068,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 56.8452 74.93 0)
+			(at 56.8452 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3069,7 +3079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 71.12 0)
+			(at 55.88 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3080,7 +3090,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 71.12 0)
+			(at 55.88 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3188,7 +3198,7 @@
 	(symbol
 		(lib_name "R_álló_1")
 		(lib_id "001_Resistor_user:R_álló")
-		(at 34.29 76.2 0)
+		(at 34.29 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3199,7 +3209,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdfa313a-5249-4865-9178-4832efd4f241")
 		(property "Reference" "R1"
-			(at 36.83 71.7998 0)
+			(at 36.83 76.8798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3210,7 +3220,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 36.83 74.3398 0)
+			(at 36.83 79.4198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3221,7 +3231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.512 76.2 90)
+			(at 32.512 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +3242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 76.2 0)
+			(at 34.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3243,7 +3253,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.195 70.485 90)
+			(at 36.195 75.565 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
