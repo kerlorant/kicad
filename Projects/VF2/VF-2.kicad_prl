@@ -88,7 +88,7 @@
     "files": [
       {
         "name": "VF-2.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
