@@ -337,6 +337,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "000_Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D1"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 2.54) (xy -1.27 0) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000_Device:GND"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -425,6 +591,806 @@
 					(at 0 0 0)
 					(length 2.54)
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000_Device:NPN_Transistor"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T2"
+				(at 7.62 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NPN"
+				(at 7.62 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 6.096 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+				(at -0.762 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at -1.016 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at -9.906 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN High Voltage Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NPN_Transistor_0_1"
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN_Transistor_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.5752 -3.981) (xy 1.8737 -3.0728) (xy 2.3533 -4.7057) (xy 0.5543 -3.9577)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000_Device:N_Channel_FET"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 7.62 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "N_Channel_FET"
+				(at 7.62 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
+				(at -4.064 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET HEXFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "N_Channel_FET_0_1"
+				(polyline
+					(pts
+						(xy -0.008 3.7666) (xy 0.0827 -3.9028)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7878 -2.146) (xy 0.7634 -4.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8141 3.6054) (xy 0.8141 1.7407)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8141 1.3468) (xy 0.8141 -1.542)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9454 3.6579) (xy 3.309 3.7104) (xy 3.3353 -3.4591) (xy 0.8088 -3.4036)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 4.9099)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.5474 3.6406)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.5737 -3.4419)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "N_Channel_FET_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000_Device:PNP_Transistor"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T1"
+				(at 7.62 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PNP"
+				(at 7.62 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 6.096 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+				(at -1.016 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at -1.016 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at -9.906 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN High Voltage Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PNP_Transistor_0_1"
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PNP_Transistor_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.2647 -0.0631) (xy 2.5453 5.0169)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.515 2.1433) (xy 0.6046 1.158) (xy -0.9022 0.4434) (xy -0.4926 2.1433)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1010,42 +1976,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C_Polarized_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "001_atmeneti_Device:Vcc"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C5"
-				(at 3.81 2.1591 0)
+			(property "Reference" "Vcc"
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized"
-				(at 3.81 -0.3809 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0.9652 -3.81 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1066,7 +2024,7 @@
 					)
 				)
 			)
-			(property "Description" "Polarized capacitor"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1077,81 +2035,174 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_0_1"
+			(symbol "Vcc_0_1"
 				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
+					(start 2.54 1.27)
+					(end 7.62 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "C_Polarized_1_1_1"
+			(symbol "Vcc_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 0 0)
+					(length 2.54)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "D_Zener_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D2"
+				(at -0.0001 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ZPD12"
+				(at 2.5399 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 2.54) (xy -1.27 0) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1167,9 +2218,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1836,6 +2887,567 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D1"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 2.54) (xy -1.27 0) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Trim"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P"
+				(at 3.81 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Trim"
+				(at 3.81 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at -7.112 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Trimmable resistor (preset resistor)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor variable potentiometer trimmer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Trim_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 -8.89) (xy -2.54 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 3.1524 -0.6835) (xy 0.9807 -0.6485) (xy 1.2609 -0.6485)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 3.175 -0.635) (xy 1.9265 -2.2247) (xy 1.8564 -2.2247)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.5595 1.0678)
+					(end 1.6282 -8.8199)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Trim_1_1"
+				(pin passive line
+					(at -2.54 -11.43 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 3.7465 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 3.7465 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0.508 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0.254 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 1.524 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 -2.54) (xy -1.27 0) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2806,249 +4418,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MPSA42"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MPSA42"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=E 2=B 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN High Voltage Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MPSA42_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MPSA42_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:MPSA92"
 			(pin_names
 				(offset 0)
@@ -3292,320 +4661,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRF540N"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRF540N"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "HEXFET N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IRF540N_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IRF540N_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:IRF9540N"
 			(pin_names
 				(hide yes)
@@ -3615,8 +4670,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "T"
+				(at 6.35 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3626,8 +4681,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IRF9540N"
-				(at 5.08 0 0)
+			(property "Value" "P_Channel_FET"
+				(at 6.35 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3663,7 +4718,7 @@
 				)
 			)
 			(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-				(at 0 0 0)
+				(at -4.064 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3698,7 +4753,7 @@
 			(symbol "IRF9540N_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy -0.008 3.7666) (xy 0.0827 -3.9028)
 					)
 					(stroke
 						(width 0.254)
@@ -3710,7 +4765,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 0.254 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -3722,7 +4777,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.7878 -2.146) (xy 0.7634 -4.175)
 					)
 					(stroke
 						(width 0.254)
@@ -3734,34 +4789,34 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy 0.8141 3.6054) (xy 0.8141 1.7407)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8141 1.3468) (xy 0.8141 -1.542)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9454 3.6579) (xy 3.309 3.7104) (xy 3.3353 -3.4591) (xy 0.8088 -3.4036)
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3770,7 +4825,7 @@
 				)
 				(circle
 					(center 1.651 0)
-					(radius 2.794)
+					(radius 4.9099)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3793,7 +4848,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 2.54 5.08) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3801,33 +4856,11 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 2.54 -5.08) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -3835,6 +4868,28 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 2.5474 3.6406)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.5737 -3.4419)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -3864,7 +4919,7 @@
 			)
 			(symbol "IRF9540N_1_1"
 				(pin input line
-					(at -5.08 0 0)
+					(at -6.35 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -3873,7 +4928,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3882,7 +4937,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 7.62 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -3891,7 +4946,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3900,7 +4955,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 -7.62 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -3909,7 +4964,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4278,54 +5333,120 @@
 		)
 	)
 	(junction
-		(at 55.88 67.31)
+		(at 99.06 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09980b39-6838-47ef-a2f0-95d74c8729c7")
+		(uuid "0df16bf4-b685-4a1d-b7ac-2595449d0afb")
 	)
 	(junction
-		(at 21.59 83.82)
+		(at 71.12 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2db028df-83e5-4794-bf10-e7ff8f00c757")
+		(uuid "0e973bb5-0225-41c5-838c-f0f68b205015")
 	)
 	(junction
-		(at 34.29 83.82)
+		(at 114.3 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "438433f1-7f69-4dcf-96d1-99d0c03d4d36")
+		(uuid "0f95cc03-2674-41a6-9017-bacdc14e8a89")
 	)
 	(junction
-		(at 34.29 67.31)
+		(at 55.88 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5438a5b-e52a-46e8-8a9e-962383afb06c")
+		(uuid "1d93424b-c193-4d3b-bfbe-9971eb0836c4")
 	)
 	(junction
-		(at 55.88 83.82)
+		(at 146.05 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dfb57296-d7eb-449e-ba66-72d970215eef")
+		(uuid "2c5defbc-648f-40b6-98f4-7fad10fcf940")
 	)
 	(junction
-		(at 88.9 83.82)
+		(at 114.3 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2498024-365c-4acb-b53f-c65fda02d31e")
+		(uuid "38954b12-334a-4e4b-a82a-e5d571125316")
+	)
+	(junction
+		(at 146.05 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43377ef8-db96-4c5b-bb67-514ef4a4555f")
+	)
+	(junction
+		(at 114.3 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43ba9620-1749-48bd-9a31-909d7eb836d8")
+	)
+	(junction
+		(at 165.1 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "513a1c54-f764-453c-be78-2fecaec8595e")
+	)
+	(junction
+		(at 41.91 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7986fd8a-dd72-4d07-b014-5df92b508d1e")
+	)
+	(junction
+		(at 99.06 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c270898-0477-4206-93f1-a5417aeed2dc")
+	)
+	(junction
+		(at 52.07 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80f4e41d-64f8-4051-8b8f-87ecc03f7f29")
+	)
+	(junction
+		(at 146.05 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "922ed4f1-65ba-4199-bae4-af202db31282")
+	)
+	(junction
+		(at 99.06 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e1be648-634f-458d-b252-07578d26d41f")
+	)
+	(junction
+		(at 71.12 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be3c84a1-a767-4dbb-b713-1f1dc761e1f3")
+	)
+	(junction
+		(at 52.07 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4fea01d-e88d-49a7-a64e-ac01e32388be")
+	)
+	(junction
+		(at 165.1 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3bbd973-fa69-441c-a204-1cb8d7d3a329")
 	)
 	(wire
 		(pts
-			(xy 73.66 96.52) (xy 88.9 96.52)
+			(xy 114.3 57.15) (xy 114.3 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08e0f187-a560-41da-b107-cecb07d3c835")
+		(uuid "07f6d3c7-1715-4aaa-bb4a-6d3887ca674d")
 	)
 	(wire
 		(pts
-			(xy 34.29 67.31) (xy 40.64 67.31)
+			(xy 49.53 86.36) (xy 55.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4335,37 +5456,67 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 83.82) (xy 88.9 83.82)
+			(xy 83.82 134.62) (xy 99.06 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29a0311b-4654-49dd-b0c0-1d9461aa011b")
+		(uuid "109ae57b-0cbf-46f7-8f9a-87cbad6b59b6")
 	)
 	(wire
 		(pts
-			(xy 55.88 67.31) (xy 55.88 76.2)
+			(xy 162.56 107.95) (xy 165.1 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29ef6b49-e74c-4eb9-8417-0abaf449285e")
+		(uuid "1422092a-f7a1-4106-b710-a0e9b81996d1")
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 73.66 63.5)
+			(xy 71.12 90.17) (xy 71.12 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31e9c992-2d61-40f0-ad71-162fb6f5f84c")
+		(uuid "211ff0d3-b856-4f0c-9156-01ce2f1db62d")
 	)
 	(wire
 		(pts
-			(xy 21.59 83.82) (xy 34.29 83.82)
+			(xy 146.05 57.15) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21edc899-d81a-4777-b2c4-2b13b84735ee")
+	)
+	(wire
+		(pts
+			(xy 68.58 86.36) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a7d588-2eb9-405f-8c1c-baac7dffbe2c")
+	)
+	(wire
+		(pts
+			(xy 146.05 121.92) (xy 146.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b74e94c-2910-45db-ad9c-e52db52b43e5")
+	)
+	(wire
+		(pts
+			(xy 41.91 102.87) (xy 99.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4375,67 +5526,187 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 83.82) (xy 21.59 83.82)
+			(xy 114.3 80.01) (xy 114.3 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ae0beee-305d-4c23-9600-5f973de5ca7e")
+		(uuid "3791a9ee-9eeb-48b6-a366-37a7050b1c26")
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 34.29 67.31)
+			(xy 146.05 80.01) (xy 146.05 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44536f3e-f6e3-4a25-b109-23766ed10082")
+		(uuid "3a3e8652-84b9-4fdd-bbb4-d4b557dfa385")
 	)
 	(wire
 		(pts
-			(xy 73.66 78.74) (xy 73.66 96.52)
+			(xy 165.1 93.98) (xy 165.1 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bab29b0-ba0c-4892-aef6-e9eb1138f430")
+		(uuid "3b0b0baa-468a-4de5-8a3c-953f28b218b8")
 	)
 	(wire
 		(pts
-			(xy 16.51 67.31) (xy 21.59 67.31)
+			(xy 165.1 123.19) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c224465-bdb0-4527-83a0-863d8fb743bd")
+		(uuid "3fd84735-8004-496a-9f4a-1600cb9ffc84")
 	)
 	(wire
 		(pts
-			(xy 53.34 67.31) (xy 55.88 67.31)
+			(xy 93.98 90.17) (xy 165.1 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82b3f232-02f0-4a9f-9aec-57d1edaa910b")
+		(uuid "4626d9f5-1a2f-4805-8da5-5fe3cfc96860")
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 88.9 88.9)
+			(xy 99.06 57.15) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8989a231-c750-44f9-b86a-25f50c620ecb")
+		(uuid "480b1060-b9b3-4976-b841-e7f600f38d76")
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 73.66 53.34)
+			(xy 114.3 134.62) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b19a200-5425-497d-98b7-7b33d8c6e679")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 165.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d72c392-b743-412b-9806-10232f28cd74")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecbe779-9a36-4fc2-91bb-b593820e0e43")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531617b0-57ca-47dc-8b58-e4487c8d9607")
+	)
+	(wire
+		(pts
+			(xy 165.1 90.17) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5708663e-3d68-4aee-a083-978fbadde013")
+	)
+	(wire
+		(pts
+			(xy 137.16 57.15) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e27047b-0f66-4663-9b1b-ca68ae5e2c1c")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611b175e-a315-4562-86ae-d2659b911139")
+	)
+	(wire
+		(pts
+			(xy 146.05 134.62) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622751ca-2db8-4f9b-8cde-d35417dbc42d")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c411d49-ae78-4b1d-b702-db623c79dfef")
+	)
+	(wire
+		(pts
+			(xy 165.1 69.85) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dae8af8-bebe-48d9-bd1c-998576dbc19f")
+	)
+	(wire
+		(pts
+			(xy 83.82 97.79) (xy 83.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831befa6-5ffd-4470-9d4c-932d3e1af980")
+	)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c852a7-3cd4-436f-ad2c-cc937b7481ea")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 83.82 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4445,27 +5716,147 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 72.39) (xy 34.29 67.31)
+			(xy 52.07 100.33) (xy 52.07 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94a84ff4-ebcd-4dc1-88d3-c79eae2d580b")
+		(uuid "90d10c52-2f86-4e41-a5a6-1460c3eac526")
 	)
 	(wire
 		(pts
-			(xy 88.9 60.96) (xy 88.9 83.82)
+			(xy 146.05 114.3) (xy 146.05 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5b7e93d-ad26-47bc-aaac-3a9099b38c8d")
+		(uuid "91e5a88c-c7ae-45e4-beb2-04ec6575511c")
 	)
 	(wire
 		(pts
-			(xy 21.59 86.36) (xy 21.59 83.82)
+			(xy 99.06 102.87) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1eb090-21dc-42fd-9807-e27cf05e8ec6")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 146.05 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad53dc7-d886-45a4-b653-f9461b7c74b6")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.62) (xy 146.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c2a9ea-4317-4b0f-8082-d720ac484ee5")
+	)
+	(wire
+		(pts
+			(xy 71.12 97.79) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc273e63-23f0-4d2b-8f59-a2d7b48e0403")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 125.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a351cd-068e-437d-99ae-bb6ec32a1e0c")
+	)
+	(wire
+		(pts
+			(xy 39.37 102.87) (xy 41.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ae3dfa-bde4-4af0-ab23-880229486818")
+	)
+	(wire
+		(pts
+			(xy 83.82 57.15) (xy 83.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c790ba8f-3651-41ac-977d-19298c7b1eac")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8619e8d-2a31-454b-9e58-33c46e5d41ab")
+	)
+	(wire
+		(pts
+			(xy 114.3 124.46) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d487326b-c640-4941-9774-5256e34a980a")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 99.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ebd382-c195-4cbb-8026-17984bf4dd01")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de46275a-2466-4d9a-93cd-48366c67db0a")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 76.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0386323-0ab9-49a7-a3ed-c1fa7820c159")
+	)
+	(wire
+		(pts
+			(xy 41.91 105.41) (xy 41.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4475,27 +5866,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 67.31) (xy 55.88 67.31)
+			(xy 39.37 86.36) (xy 41.91 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e50f1d12-7256-49f0-8677-520999a7bc15")
+		(uuid "fb6c3fcb-dea7-4b9e-8c27-6ca7975c2c60")
 	)
 	(wire
 		(pts
-			(xy 34.29 83.82) (xy 55.88 83.82)
+			(xy 99.06 134.62) (xy 114.3 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb4716f7-d304-4880-9286-3d184337dfd7")
+		(uuid "fe996881-a29b-464c-8cd1-b2d18d2ef4ba")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 20.32 48.26 0)
+		(at 30.48 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4506,7 +5897,7 @@
 		(fields_autoplaced yes)
 		(uuid "068861bd-6b85-489d-a930-d8270e2b81bd")
 		(property "Reference" "C"
-			(at 22.86 46.4438 0)
+			(at 33.02 79.4638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4517,7 +5908,7 @@
 			)
 		)
 		(property "Value" "C_Polarized_Small"
-			(at 22.86 48.9838 0)
+			(at 33.02 82.0038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4528,7 +5919,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 20.32 48.26 0)
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +5930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 48.26 0)
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,7 +5941,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 20.32 48.26 0)
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4577,7 +5968,7 @@
 	)
 	(symbol
 		(lib_id "000_Device:Vcc")
-		(at 41.91 52.07 0)
+		(at 19.05 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4588,7 +5979,7 @@
 		(fields_autoplaced yes)
 		(uuid "06941e59-e770-47ee-b010-8e7924c4b3e7")
 		(property "Reference" "Vcc-30V"
-			(at 50.8 52.0699 0)
+			(at 27.94 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4599,7 +5990,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 41.91 52.07 0)
+			(at 19.05 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4609,7 +6000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 52.07 0)
+			(at 19.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4620,7 +6011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 52.07 0)
+			(at 19.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4631,7 +6022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 52.07 0)
+			(at 19.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4654,8 +6045,96 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Device:N_Channel_FET")
+		(at 207.01 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "076d6d0d-e4f8-4b15-9e8a-4f9e3aea0b94")
+		(property "Reference" "T4"
+			(at 214.63 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540"
+			(at 214.63 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 212.09 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
+			(at 212.09 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
+			(at 202.946 134.112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c01ef16f-ee5b-4783-9194-44aa12a6f463")
+		)
+		(pin ""
+			(uuid "015df860-178a-4874-afcc-76f9034cabc5")
+		)
+		(pin ""
+			(uuid "e930b1f2-048c-41d9-9f75-2788ae70c612")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000_Device:C")
-		(at 111.76 50.8 0)
+		(at 254 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4666,7 +6145,7 @@
 		(fields_autoplaced yes)
 		(uuid "26263583-2f22-45b4-8d48-fc220594a610")
 		(property "Reference" "C6"
-			(at 115.57 49.5299 0)
+			(at 257.81 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4677,7 +6156,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 115.57 52.0699 0)
+			(at 257.81 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4688,7 +6167,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 112.7252 54.61 0)
+			(at 254.9652 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +6178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 50.8 0)
+			(at 254 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +6189,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 50.8 0)
+			(at 254 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,8 +6215,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 21.59 39.37 0)
+		(lib_name "R_álló_1")
+		(lib_id "001_Resistor_user:R_álló")
+		(at 220.98 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4746,9 +6226,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35e87882-df1b-44f9-9e82-a42ead7c2298")
-		(property "Reference" "C"
-			(at 24.13 38.0999 0)
+		(uuid "343cf4c3-8db2-4556-9616-268835c8ac0f")
+		(property "Reference" "R6"
+			(at 223.52 101.0098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4758,8 +6238,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 24.13 40.6399 0)
+		(property "Value" "47k"
+			(at 223.52 103.5498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4770,7 +6250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 39.37 0)
+			(at 219.202 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +6261,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 39.37 0)
+			(at 220.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.885 99.695 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ac1bbae-aae3-432c-8279-17cd82a0b8fb")
+		)
+		(pin "2"
+			(uuid "bf505619-1fc1-42f3-9910-06b6966947af")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 31.75 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e87882-df1b-44f9-9e82-a42ead7c2298")
+		(property "Reference" "C"
+			(at 34.29 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 34.29 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4792,7 +6354,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 21.59 49.53 0)
+			(at 31.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4820,7 +6382,7 @@
 	(symbol
 		(lib_name "R_2")
 		(lib_id "001_Resistor_user:R")
-		(at 46.99 68.58 0)
+		(at 62.23 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4831,7 +6393,7 @@
 		(fields_autoplaced yes)
 		(uuid "392ab0e7-f99c-4b05-ac63-49ba9169d877")
 		(property "Reference" "R2"
-			(at 46.99 60.96 0)
+			(at 62.23 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4841,7 +6403,7 @@
 			)
 		)
 		(property "Value" "2k7"
-			(at 46.99 63.5 0)
+			(at 62.23 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4851,7 +6413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.212 68.58 90)
+			(at 60.452 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4862,7 +6424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 68.58 0)
+			(at 62.23 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4873,7 +6435,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 68.58 0)
+			(at 62.23 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4899,8 +6461,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 165.1 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d77a482-3cdf-4dca-99db-aab54599be4f")
+		(property "Reference" "D"
+			(at 168.91 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 168.91 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 167.386 41.402 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 157.48 41.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 159.766 40.386 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.878 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad47cfe6-218e-440f-9ae5-0aebd6fb96b9")
+		)
+		(pin "2"
+			(uuid "c19794f6-8e1a-486c-aa40-085339319321")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MPSA92")
-		(at 46.99 45.72 0)
+		(at 58.42 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4911,7 +6577,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ed43adf-c884-4b8a-9552-b8996a191cd7")
 		(property "Reference" "Q2"
-			(at 52.07 44.4499 0)
+			(at 63.5 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4922,7 +6588,7 @@
 			)
 		)
 		(property "Value" "MPSA92"
-			(at 52.07 46.9899 0)
+			(at 63.5 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4933,7 +6599,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 52.07 47.625 0)
+			(at 63.5 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,7 +6612,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF"
-			(at 46.99 45.72 0)
+			(at 58.42 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4958,7 +6624,7 @@
 			)
 		)
 		(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"
-			(at 46.99 45.72 0)
+			(at 58.42 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,7 +6635,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 46.99 45.72 0)
+			(at 58.42 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +6646,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 46.99 45.72 0)
+			(at 58.42 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,8 +6675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "000_Device:C_Polarized")
-		(at 127 82.55 0)
+		(lib_id "Device:R_Trim")
+		(at 165.1 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5019,9 +6685,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "401736a6-6dd3-48d2-94c6-579746477a29")
-		(property "Reference" "C"
-			(at 130.81 80.3909 0)
+		(uuid "3fee277b-c62f-4e60-a7c6-c81d5aaac133")
+		(property "Reference" "P1"
+			(at 168.91 99.6949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5031,8 +6697,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 130.81 82.9309 0)
+		(property "Value" "2k2"
+			(at 168.91 102.2349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5042,8 +6708,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 127.9652 86.36 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 157.988 96.774 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5054,7 +6720,92 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 82.55 0)
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Trimmable resistor (preset resistor)"
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b608f795-565d-497d-b2ab-653b5d970cbd")
+		)
+		(pin "2"
+			(uuid "3c6f8a3a-2621-47d8-9907-f66c62f8136e")
+		)
+		(pin ""
+			(uuid "d0bc6737-a9bb-46f5-adaa-0dab5dc98339")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:C_Polarized")
+		(at 146.05 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "401736a6-6dd3-48d2-94c6-579746477a29")
+		(property "Reference" "C"
+			(at 149.86 115.9509 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 149.86 118.4909 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 147.0152 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5065,7 +6816,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 127 82.55 0)
+			(at 146.05 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,9 +6842,8 @@
 		)
 	)
 	(symbol
-		(lib_name "C_Polarized_1")
 		(lib_id "001_Capacitor_user:C_Polarized")
-		(at 88.9 92.71 0)
+		(at 99.06 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5101,202 +6851,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "415b45e4-0aeb-418c-8f70-93faaac721b6")
-		(property "Reference" "C4"
-			(at 92.71 90.5509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 92.71 93.0909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 89.8652 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 88.9 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1d2e27d3-e027-435a-8801-b9486d8f43ad")
-		)
-		(pin "1"
-			(uuid "3cf4a0ec-4dad-43c2-8fa7-4d331367e221")
-		)
-		(instances
-			(project "VF-2"
-				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MPSA42")
-		(at 60.96 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43bcb1b3-3d50-4414-a31f-6055294b77ce")
-		(property "Reference" "Q1"
-			(at 66.04 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MPSA42"
-			(at 66.04 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 66.04 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
-			(at 60.96 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
-			(at 60.96 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 60.96 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 60.96 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "953b1109-bde9-4489-bff2-5d3a41867c86")
-		)
-		(pin "2"
-			(uuid "146b6dc7-9095-48ab-9b9d-20e7f74eb01f")
-		)
-		(pin "3"
-			(uuid "02d5f59f-98f8-4a63-9d62-cd7c8f292816")
-		)
-		(instances
-			(project "VF-2"
-				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "001_Capacitor_user:C_Polarized")
-		(at 88.9 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4400a72c-ff89-4fbe-ac3e-b4787ac7a89f")
 		(property "Reference" "C3"
-			(at 92.71 54.9909 0)
+			(at 102.616 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5307,7 +6864,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 92.71 57.5309 0)
+			(at 101.854 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5318,7 +6875,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 89.8652 60.96 0)
+			(at 100.0252 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +6886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 57.15 0)
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +6897,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 88.9 57.15 0)
+			(at 99.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5366,8 +6923,118 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Device:NPN_Transistor")
+		(at 162.56 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f8a0f9e-30fb-4df6-a0b5-dacb4bcf502b")
+		(property "Reference" "T1"
+			(at 170.18 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 170.18 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 168.656 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 162.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 161.798 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 161.544 53.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 152.654 51.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "685db0a2-2176-41be-9074-13d93521958b")
+		)
+		(pin ""
+			(uuid "44fd5da7-0c27-4cbd-9aa7-e5be70e7ddad")
+		)
+		(pin ""
+			(uuid "568ce121-dcea-4867-84c6-c8758e342bde")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "001_Capacitor_user:C")
-		(at 69.85 54.61 0)
+		(at 274.32 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5378,7 +7045,7 @@
 		(fields_autoplaced yes)
 		(uuid "57c5d1f4-bd5d-4726-b522-371888be7616")
 		(property "Reference" "C"
-			(at 73.66 53.3399 0)
+			(at 278.13 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5389,7 +7056,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 73.66 55.8799 0)
+			(at 278.13 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5400,7 +7067,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 70.8152 58.42 0)
+			(at 275.2852 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5411,7 +7078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 54.61 0)
+			(at 274.32 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5422,7 +7089,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 54.61 0)
+			(at 274.32 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,8 +7115,9 @@
 		)
 	)
 	(symbol
-		(lib_id "000_Device:C")
-		(at 34.29 93.98 0)
+		(lib_name "R_álló_1")
+		(lib_id "001_Resistor_user:R_álló")
+		(at 165.1 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5458,9 +7126,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c1605ad-9b99-4718-a9c5-2a30dd91412a")
-		(property "Reference" "C2"
-			(at 38.1 92.7099 0)
+		(uuid "59dfa7c8-c5a7-47d9-afbc-a68f05ea0591")
+		(property "Reference" "R"
+			(at 167.64 116.2498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5470,8 +7138,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 38.1 95.2499 0)
+		(property "Value" "2k2"
+			(at 167.64 118.7898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5481,8 +7149,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 35.2552 97.79 0)
+		(property "Footprint" ""
+			(at 163.322 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5493,7 +7161,169 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 93.98 0)
+			(at 165.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.005 114.935 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbac11b8-9cb2-4051-99a2-157626b5f1ba")
+		)
+		(pin "2"
+			(uuid "d5c6c423-aa3d-4249-9041-6d682395077e")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:R")
+		(at 129.54 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f9747a-c918-4e5d-84b7-ca9235d5f883")
+		(property "Reference" "R4"
+			(at 126.4099 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k7"
+			(at 126.4099 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 129.54 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.825 132.715 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9dc16af6-2864-4e23-ac7f-bc44fc76fa0e")
+		)
+		(pin "1"
+			(uuid "694e8555-4c8b-4521-a50d-49b860b321d9")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:C")
+		(at 44.45 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1605ad-9b99-4718-a9c5-2a30dd91412a")
+		(property "Reference" "C2"
+			(at 48.26 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 48.26 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 45.4152 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +7334,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 34.29 93.98 0)
+			(at 44.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +7361,7 @@
 	)
 	(symbol
 		(lib_id "000_Device:C_Polarized")
-		(at 127 59.69 0)
+		(at 146.05 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5542,7 +7372,7 @@
 		(fields_autoplaced yes)
 		(uuid "7220af0a-9d4d-4fef-937f-924e93c83e8a")
 		(property "Reference" "C7"
-			(at 130.81 57.5309 0)
+			(at 149.86 74.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5553,7 +7383,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 130.81 60.0709 0)
+			(at 149.86 76.5809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5564,7 +7394,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 127.9652 63.5 0)
+			(at 147.0152 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +7405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 59.69 0)
+			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +7416,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 127 59.69 0)
+			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5614,7 +7444,7 @@
 	(symbol
 		(lib_name "OPA2134_2")
 		(lib_id "000_Device:OPA2134")
-		(at 76.2 68.58 0)
+		(at 86.36 87.63 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5625,7 +7455,7 @@
 		(fields_autoplaced yes)
 		(uuid "770be040-c014-4069-83c4-279979239b2c")
 		(property "Reference" "U4"
-			(at 74.93 67.3099 0)
+			(at 85.09 86.3599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5637,7 +7467,7 @@
 			)
 		)
 		(property "Value" "OPA2134"
-			(at 74.93 69.8499 0)
+			(at 85.09 88.8999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5649,7 +7479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 68.58 0)
+			(at 86.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +7490,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 79.502 74.168 0)
+			(at 89.662 93.218 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5671,7 +7501,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 84.328 76.708 0)
+			(at 94.488 95.758 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,8 +7545,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 101.6 40.64 0)
+		(lib_name "R_álló_1")
+		(lib_id "001_Resistor_user:R_álló")
+		(at 179.07 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5725,57 +7556,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9337c9f4-623a-440b-b621-4e3e82ae984d")
-		(property "Reference" "Q3"
-			(at 107.95 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 107.95 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 106.68 42.545 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 106.68 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 101.6 40.64 0)
-			(hide yes)
+		(uuid "7721d9ce-184c-4b11-ac23-48389519f960")
+		(property "Reference" "R7"
+			(at 175.9399 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5784,48 +7567,8 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "37174b55-9564-4501-8d7a-709477a65d42")
-		)
-		(pin "3"
-			(uuid "c9fdebbf-1cb5-4850-aa62-df61cbd0a76f")
-		)
-		(pin "2"
-			(uuid "9d15385c-f81e-4499-83eb-ee22240c5171")
-		)
-		(instances
-			(project "VF-2"
-				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_Device:GND")
-		(at 16.51 83.82 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4f71ea3-272b-4db7-8e3b-ebef51a0e86c")
-		(property "Reference" "GND1"
-			(at 14.224 92.964 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 16.51 83.82 0)
+		(property "Value" "8k2"
+			(at 175.9399 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5835,7 +7578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 83.82 0)
+			(at 179.07 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5846,7 +7589,166 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 83.82 0)
+			(at 179.07 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.355 88.265 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f745379-aa33-4b0f-a9fa-927ef4b6378e")
+		)
+		(pin "2"
+			(uuid "580107a4-f47a-4f3f-b502-d6dd7cce4b6a")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:D_Zener")
+		(at 259.08 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80a95843-276d-413c-b479-02ed5538f0b6")
+		(property "Reference" "D4"
+			(at 257.81 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 260.35 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+			(at 259.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 259.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c09e6380-cb85-4eea-81d5-71dd5cd2cd10")
+		)
+		(pin "1"
+			(uuid "1ae0c8bb-5936-4612-ae7c-3313733ddc2f")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "001_atmeneti_Device:Vcc")
+		(at 39.37 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83f73607-6b70-44df-9f4b-d56e453d41be")
+		(property "Reference" "Be"
+			(at 35.052 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 39.37 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+			(at 39.37 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5857,7 +7759,272 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.51 83.82 0)
+			(at 39.37 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "121104ad-c525-45eb-91ad-0ea617f0be30")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "Be")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_álló_1")
+		(lib_id "001_Resistor_user:R_álló")
+		(at 165.1 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f843303-7b02-4f2d-bc4d-3b6943450f0e")
+		(property "Reference" "R9"
+			(at 167.64 167.0498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 167.64 169.5898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.322 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.005 165.735 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec97b1e3-0c0a-4b5c-b6ce-ce2adfbff8bf")
+		)
+		(pin "2"
+			(uuid "745903b2-e82f-4ccb-aa0f-1aba8c5f71e5")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 165.1 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "900d5275-20c6-486a-b2e8-6bc850c2d8e0")
+		(property "Reference" "D5"
+			(at 168.91 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 168.91 153.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 167.386 153.162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 157.48 153.416 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 159.766 152.146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 165.1 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.878 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06df0b99-4014-4886-919e-003fb8238aa5")
+		)
+		(pin "2"
+			(uuid "d2e0183d-48a7-4a41-8f7e-f5e84113f6ea")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:GND")
+		(at 39.37 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4f71ea3-272b-4db7-8e3b-ebef51a0e86c")
+		(property "Reference" "GND1"
+			(at 30.226 100.584 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 39.37 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5882,7 +8049,7 @@
 	(symbol
 		(lib_name "GNDD_1")
 		(lib_id "power:GNDD")
-		(at 214.63 21.59 0)
+		(at 265.43 10.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5893,7 +8060,7 @@
 		(fields_autoplaced yes)
 		(uuid "a59ff854-31a1-4cdd-b791-7dc8fc358a00")
 		(property "Reference" "#PWR03"
-			(at 214.63 27.94 0)
+			(at 265.43 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +8071,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 214.63 25.4 0)
+			(at 265.43 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5914,7 +8081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 21.59 0)
+			(at 265.43 10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,7 +8092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 21.59 0)
+			(at 265.43 10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5936,7 +8103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 214.63 21.59 0)
+			(at 265.43 10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,7 +8127,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 148.59 27.94 0)
+		(at 199.39 16.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5971,7 +8138,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab33b33a-0224-45e5-bb54-a7e3efe19d5c")
 		(property "Reference" "#FLG01"
-			(at 148.59 26.035 0)
+			(at 199.39 14.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,7 +8149,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 148.59 22.86 0)
+			(at 199.39 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,7 +8159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 27.94 0)
+			(at 199.39 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6003,7 +8170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 27.94 0)
+			(at 199.39 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +8181,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 148.59 27.94 0)
+			(at 199.39 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +8205,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 80.01 0)
+		(at 71.12 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6048,7 +8215,7 @@
 		(dnp no)
 		(uuid "b3ab1771-5f45-4731-88b1-20ed6bf79104")
 		(property "Reference" "C2"
-			(at 59.69 78.7399 0)
+			(at 64.262 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6059,7 +8226,7 @@
 			)
 		)
 		(property "Value" "47pF"
-			(at 59.69 81.2799 0)
+			(at 63.5 94.4881 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6070,7 +8237,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 56.8452 83.82 0)
+			(at 72.0852 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +8248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 80.01 0)
+			(at 71.12 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +8259,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 80.01 0)
+			(at 71.12 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,8 +8285,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 25.4 67.31 90)
+		(lib_name "R_álló_1")
+		(lib_id "001_Resistor_user:R_álló")
+		(at 165.1 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6128,29 +8296,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb6a57c2-da7f-4833-afa3-666bee669907")
-		(property "Reference" "C1"
-			(at 24.511 59.69 90)
+		(uuid "b61b70a4-4bb4-4a45-bebd-16e86ee4fffd")
+		(property "Reference" "R8"
+			(at 167.64 24.8098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1-10uF tantál"
-			(at 24.511 62.23 90)
+		(property "Value" "47k"
+			(at 167.64 27.3498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 66.3448 0)
+			(at 163.322 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +8331,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 67.31 0)
+			(at 165.1 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.005 23.495 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e16dcce-4bb3-4cf3-9645-e4ecd153fe01")
+		)
+		(pin "2"
+			(uuid "15bb1b31-3f9a-406e-8943-cf765e1b428f")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 45.72 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb6a57c2-da7f-4833-afa3-666bee669907")
+		(property "Reference" "C1"
+			(at 44.831 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1-10uF tantál"
+			(at 44.831 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 85.3948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +8422,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 25.4 67.31 0)
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6199,7 +8449,7 @@
 	)
 	(symbol
 		(lib_id "000_Device:C_Polarized")
-		(at 52.07 105.41 0)
+		(at 99.06 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6209,8 +8459,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb9fbe64-6d04-4349-b6f1-49db07a2b5b1")
-		(property "Reference" "C4"
-			(at 55.88 103.2509 0)
+		(property "Reference" "C2"
+			(at 102.87 115.9509 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6220,8 +8470,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 55.88 105.7909 0)
+		(property "Value" "22uF"
+			(at 102.87 118.4909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6232,7 +8482,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 53.0352 109.22 0)
+			(at 100.0252 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +8493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 105.41 0)
+			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +8504,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 52.07 105.41 0)
+			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6273,7 +8523,7 @@
 		(instances
 			(project "VF-2"
 				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6282,7 +8532,7 @@
 	(symbol
 		(lib_name "R_álló_1")
 		(lib_id "001_Resistor_user:R_álló")
-		(at 34.29 81.28 0)
+		(at 52.07 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6293,7 +8543,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdfa313a-5249-4865-9178-4832efd4f241")
 		(property "Reference" "R1"
-			(at 36.83 76.8798 0)
+			(at 54.61 93.3898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6304,7 +8554,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 36.83 79.4198 0)
+			(at 54.61 95.9298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6315,7 +8565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.512 81.28 90)
+			(at 50.292 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +8576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 81.28 0)
+			(at 52.07 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +8587,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.195 75.565 90)
+			(at 53.975 92.075 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6364,7 +8614,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 128.27 39.37 0)
+		(at 190.5 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6374,8 +8624,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c449ac86-41a4-4f10-ab06-dd637c413ec5")
-		(property "Reference" "Q4"
-			(at 134.62 38.0999 0)
+		(property "Reference" "T3"
+			(at 198.12 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6385,8 +8635,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF9540N"
-			(at 134.62 40.6399 0)
+		(property "Value" "IRF9540"
+			(at 198.12 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6397,7 +8647,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 133.35 41.275 0)
+			(at 195.58 38.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,7 +8660,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 133.35 43.18 0)
+			(at 195.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,7 +8672,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 128.27 39.37 0)
+			(at 186.436 28.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,19 +8682,99 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin ""
 			(uuid "5b3420da-3c4b-406d-add3-f2d73ee35102")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "1c184692-f811-4b7f-b909-be51236c8d77")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "57befc6d-e434-4e42-8da5-0c3c23fc6311")
 		)
 		(instances
 			(project "VF-2"
 				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
-					(reference "Q4")
+					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:D_Zener")
+		(at 215.9 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf29103e-b722-4110-b14f-41df7425925b")
+		(property "Reference" "D3"
+			(at 217.17 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 217.17 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+			(at 215.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 215.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "706d8008-8ab7-45c9-b9b8-f20c12c868a4")
+		)
+		(pin "1"
+			(uuid "f8c21f05-3d2f-4c51-9041-7eabb17e232c")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6453,7 +8783,7 @@
 	(symbol
 		(lib_name "OPA2134_1")
 		(lib_id "Amplifier_Operational:OPA2134")
-		(at 73.66 71.12 0)
+		(at 83.82 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6463,7 +8793,7 @@
 		(dnp no)
 		(uuid "d2579fbb-2ff3-4684-8691-a42eb937384a")
 		(property "Reference" "U1"
-			(at 70.866 71.628 0)
+			(at 81.026 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6473,7 +8803,7 @@
 			)
 		)
 		(property "Value" "Opa2134"
-			(at 80.518 67.056 0)
+			(at 90.678 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6483,7 +8813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 71.12 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +8824,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 73.66 71.12 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,7 +8835,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 73.66 71.12 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,8 +8879,9 @@
 		)
 	)
 	(symbol
-		(lib_id "000_Device:R")
-		(at 106.68 62.23 90)
+		(lib_name "D_Zener_1")
+		(lib_id "000_Device:D_Zener")
+		(at 114.3 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6559,29 +8890,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3f76529-8dda-418a-aa11-fefd9c26025c")
-		(property "Reference" "R3"
-			(at 103.5499 55.88 90)
+		(uuid "d8a92183-5c44-45bf-bd84-6cf3f7f53e78")
+		(property "Reference" "D2"
+			(at 118.11 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2k7"
-			(at 103.5499 58.42 90)
+		(property "Value" "ZPD12"
+			(at 118.11 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 106.68 64.008 90)
+		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+			(at 110.998 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6592,7 +8925,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 62.23 0)
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 114.3 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2466e805-a341-4bb7-8db1-694f4038af69")
+		)
+		(pin "1"
+			(uuid "d0564a50-b401-47be-98b6-35155c3f751d")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:R")
+		(at 134.62 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3f76529-8dda-418a-aa11-fefd9c26025c")
+		(property "Reference" "R3"
+			(at 131.4899 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k7"
+			(at 131.4899 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 134.62 58.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,7 +9016,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.965 60.325 90)
+			(at 128.905 55.245 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,8 +9042,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 21.59 86.36 0)
+		(lib_name "R_álló_1")
+		(lib_id "001_Resistor_user:R_álló")
+		(at 165.1 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6639,30 +9053,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed422e7e-2560-444c-95e6-d0b0290c0531")
-		(property "Reference" "#PWR01"
-			(at 21.59 92.71 0)
-			(hide yes)
+		(uuid "ec7d7e74-0301-4cec-ba18-8dcc4453696d")
+		(property "Reference" "R5"
+			(at 167.64 74.3398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 21.59 90.17 0)
+		(property "Value" "2k7"
+			(at 167.64 76.8798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 21.59 86.36 0)
+		(property "Footprint" ""
+			(at 163.322 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +9088,170 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 86.36 0)
+			(at 165.1 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.005 73.025 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97a4cd27-725d-4585-b63e-b133a051077e")
+		)
+		(pin "2"
+			(uuid "35ddc810-f4b0-49ee-8d08-b756b7fd2e6a")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 114.3 76.2 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecba0930-7a6b-412a-a6f1-970cc73b18ac")
+		(property "Reference" "D1"
+			(at 118.11 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZPD12"
+			(at 118.11 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f363f727-67a3-4c01-8e9b-1ea4f5ca10a4")
+		)
+		(pin "2"
+			(uuid "d08b87f9-b1db-47dd-9aa1-f4ef9fb1957d")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 41.91 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed422e7e-2560-444c-95e6-d0b0290c0531")
+		(property "Reference" "#PWR01"
+			(at 41.91 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 41.91 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 41.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6684,7 +9262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 21.59 86.36 0)
+			(at 41.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6708,7 +9286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 31.75 0)
+		(at 220.98 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6719,7 +9297,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2e15f7d-7343-4bff-9505-c5e0cc27443c")
 		(property "Reference" "#PWR02"
-			(at 170.18 38.1 0)
+			(at 220.98 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6730,7 +9308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 36.83 0)
+			(at 220.98 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6740,7 +9318,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 170.18 31.75 0)
+			(at 220.98 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6751,7 +9329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 31.75 0)
+			(at 220.98 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,7 +9340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 31.75 0)
+			(at 220.98 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,6 +9357,116 @@
 			(project "VF-2"
 				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:PNP_Transistor")
+		(at 162.56 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f68064ef-5c17-4382-aae5-ad9f018b34ee")
+		(property "Reference" "T2"
+			(at 170.18 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA93"
+			(at 170.18 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 168.656 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 162.56 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 161.544 139.954 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 161.544 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 152.654 128.524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "23c5052d-ef48-4dcc-b884-9b706f5488d0")
+		)
+		(pin ""
+			(uuid "67220491-275e-4032-8f9d-c56768390fe3")
+		)
+		(pin ""
+			(uuid "bb20985e-6238-4f7b-8d9e-15491a0fb248")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "T2")
 					(unit 1)
 				)
 			)
