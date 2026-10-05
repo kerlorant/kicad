@@ -93,18 +93,6 @@
           "size_x": 1233,
           "size_y": 465
         }
-      },
-      {
-        "name": "HIRAGA.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 110,
-          "pos_y": 40,
-          "size_x": 1151,
-          "size_y": 680
-        }
       }
     ]
   },
