@@ -22,7 +22,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -30,26 +30,8 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [
-      "vias",
-      "footprint_text",
-      "footprint_anchors",
-      "ratsnest",
-      "grid",
-      "footprints_front",
-      "footprints_back",
-      "footprint_values",
-      "footprint_references",
-      "tracks",
-      "drc_errors",
-      "drawing_sheet",
-      "bitmaps",
-      "pads",
-      "zones",
-      "drc_warnings",
-      "shapes"
-    ],
-    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
+    "visible_items": [],
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,8 +41,8 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HIRAGA.kicad_prl",
-    "version": 5
+    "filename": "TesztOldVersion.kicad_prl",
+    "version": 3
   },
   "net_inspector_panel": {
     "col_hidden": [],
@@ -81,32 +63,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "HIRAGA.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 47,
-          "pos_y": 255,
-          "size_x": 1233,
-          "size_y": 465
-        }
-      },
-      {
-        "name": "HIRAGA.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 110,
-          "pos_y": 40,
-          "size_x": 1151,
-          "size_y": 680
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],

@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Old_VF2.kicad_pro",
+    "filename": "VF2_ver_6_0.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -318,7 +318,7 @@
   },
   "sheets": [
     [
-      "5f78f9d1-5045-4346-a7aa-9282336fdbd2",
+      "ebf1ddac-589f-4b29-bd9c-7dbd9acbd2ca",
       ""
     ]
   ],

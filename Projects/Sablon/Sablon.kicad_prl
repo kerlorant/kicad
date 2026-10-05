@@ -16,7 +16,6 @@
       "zones": 0.6
     },
     "prototype_zone_fills": false,
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -47,9 +46,14 @@
       "pads",
       "zones",
       "drc_warnings",
-      "shapes"
+      "drc_exclusions",
+      "locked_item_shadows",
+      "conflict_shadows",
+      "shapes",
+      "board_outline_area",
+      "ly_points"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HIRAGA.kicad_prl",
+    "filename": "Sablon.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -83,7 +87,7 @@
   "project": {
     "files": [
       {
-        "name": "HIRAGA.kicad_sch",
+        "name": "Sablon.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
@@ -92,18 +96,6 @@
           "pos_y": 255,
           "size_x": 1233,
           "size_y": 465
-        }
-      },
-      {
-        "name": "HIRAGA.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 110,
-          "pos_y": 40,
-          "size_x": 1151,
-          "size_y": 680
         }
       }
     ]

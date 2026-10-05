@@ -208,4 +208,5 @@
   (lib (name "Triac_Thyristor")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Triac_Thyristor.kicad_sym")(options "")(descr ""))
   (lib (name "Valve")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Valve.kicad_sym")(options "")(descr ""))
   (lib (name "Video")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Video.kicad_sym")(options "")(descr ""))
+  (lib (name "000_Small_Device")(type "KiCad")(uri "${SAJAT_RAJZJELEK}/000_Small_Device.kicad_sym")(options "")(descr ""))
 )

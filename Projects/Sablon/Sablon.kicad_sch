@@ -1,0 +1,109 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e94c4895-4a77-4b8d-b859-3799a2696e1a")
+	(paper "A4")
+	(title_block
+		(company "Nautilus Művek")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy -218.44 1.27) (xy -19.05 1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab9a1c8-f95a-4cfc-b445-2795bd4995e3")
+	)
+	(polyline
+		(pts
+			(xy -218.44 137.16) (xy -19.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431091e7-713c-44e4-961e-1cdc40a084d2")
+	)
+	(polyline
+		(pts
+			(xy -33.02 254) (xy -177.8 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c361f4-b55f-42ed-8111-c571cd91115f")
+	)
+	(polyline
+		(pts
+			(xy -33.02 153.67) (xy -33.02 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8697ad5a-6730-495a-8361-72e9a80396fa")
+	)
+	(polyline
+		(pts
+			(xy -177.8 153.67) (xy -177.8 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4648756-65a1-4a4d-83f7-f8d10f5a4ba7")
+	)
+	(polyline
+		(pts
+			(xy -19.05 1.27) (xy -19.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce38430c-50ed-449f-a453-9b07be16b363")
+	)
+	(polyline
+		(pts
+			(xy -177.8 153.67) (xy -33.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf045fed-043a-4854-a79e-dfd025b7e387")
+	)
+	(polyline
+		(pts
+			(xy -218.44 1.27) (xy -218.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f6389e-d79e-4fe6-8f91-cb24a8b58c1a")
+	)
+	(group ""
+		(uuid "0385feb2-00f4-4119-ad68-70ef0e18548a")
+		(members "0ab9a1c8-f95a-4cfc-b445-2795bd4995e3" "431091e7-713c-44e4-961e-1cdc40a084d2"
+			"ce38430c-50ed-449f-a453-9b07be16b363" "f1f6389e-d79e-4fe6-8f91-cb24a8b58c1a"
+		)
+	)
+	(group ""
+		(uuid "99ea69d5-ef32-4011-a2cd-df81e17d9ddc")
+		(members "55c361f4-b55f-42ed-8111-c571cd91115f" "8697ad5a-6730-495a-8361-72e9a80396fa"
+			"c4648756-65a1-4a4d-83f7-f8d10f5a4ba7" "cf045fed-043a-4854-a79e-dfd025b7e387"
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
