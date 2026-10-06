@@ -81,20 +81,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "HIRAGA.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 47,
-          "pos_y": 255,
-          "size_x": 1233,
-          "size_y": 465
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],

@@ -816,7 +816,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "T"
-				(at 7.62 1.2701 0)
+				(at 8.382 2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -826,8 +826,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "N_Channel_FET"
-				(at 7.62 -1.2699 0)
+			(property "Value" "IRF540"
+				(at 7.366 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -898,7 +898,7 @@
 			(symbol "N_Channel_FET_0_1"
 				(polyline
 					(pts
-						(xy -0.008 3.7666) (xy 0.0827 -3.9028)
+						(xy -0.0258 3.4303) (xy -0.0258 -3.3799)
 					)
 					(stroke
 						(width 0.254)
@@ -910,7 +910,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -3.81 0)
+						(xy 0 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -922,7 +922,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.7878 -2.146) (xy 0.7634 -4.175)
+						(xy 0.8097 3.4303) (xy 0.8141 1.7407)
 					)
 					(stroke
 						(width 0.254)
@@ -934,7 +934,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.8141 3.6054) (xy 0.8141 1.7407)
+						(xy 0.8097 1.1532) (xy 0.8097 -1.1446)
 					)
 					(stroke
 						(width 0.254)
@@ -946,7 +946,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.8141 1.3468) (xy 0.8141 -1.542)
+						(xy 0.8706 -1.7325) (xy 0.874 -3.3674)
 					)
 					(stroke
 						(width 0.254)
@@ -958,7 +958,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.9454 3.6579) (xy 3.309 3.7104) (xy 3.3353 -3.4591) (xy 0.8088 -3.4036)
+						(xy 0.9691 2.6258) (xy 4.4285 2.6258) (xy 4.4285 -2.4379) (xy 0.9192 -2.4382)
 					)
 					(stroke
 						(width 0)
@@ -991,9 +991,31 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.5018 -2.5025)
+					(radius 0.2634)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.5221 2.5881)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 2.54 3.81)
+						(xy 2.54 5.08) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1015,31 +1037,9 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.5474 3.6406)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.5737 -3.4419)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 3.8205 -0.5774) (xy 3.9475 -0.4504) (xy 4.7095 -0.4504) (xy 4.8365 -0.3234)
 					)
 					(stroke
 						(width 0)
@@ -1051,7 +1051,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 4.3644 -0.3666) (xy 3.9834 0.2684) (xy 4.7454 0.2684) (xy 4.3644 -0.3666)
 					)
 					(stroke
 						(width 0)
@@ -1073,7 +1073,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1091,7 +1091,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1109,7 +1109,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4068,8 +4068,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 6.35 1.2701 0)
+			(property "Reference" "T3"
+				(at 7.62 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4079,8 +4079,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "P_Channel_FET"
-				(at 6.35 -1.2699 0)
+			(property "Value" "IRF9540"
+				(at 7.62 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4151,7 +4151,7 @@
 			(symbol "IRF9540N_0_1"
 				(polyline
 					(pts
-						(xy -0.008 3.7666) (xy 0.0827 -3.9028)
+						(xy 0.0069 3.0297) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -4175,7 +4175,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.7878 -2.146) (xy 0.7634 -4.175)
+						(xy 0.7862 2.546) (xy 4.5027 2.554) (xy 4.5378 -2.5399) (xy 0.8668 -2.533)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7878 -2.146) (xy 0.7786 -3.9266)
 					)
 					(stroke
 						(width 0.254)
@@ -4187,7 +4199,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.8141 3.6054) (xy 0.8141 1.7407)
+						(xy 0.8131 3.2716) (xy 0.8141 1.7407)
 					)
 					(stroke
 						(width 0.254)
@@ -4203,18 +4215,6 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9454 3.6579) (xy 3.309 3.7104) (xy 3.3353 -3.4591) (xy 0.8088 -3.4036)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -4246,7 +4246,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 2.54 3.81)
+						(xy 2.54 5.08) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4254,6 +4254,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3115)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -4269,18 +4280,7 @@
 					)
 				)
 				(circle
-					(center 2.5474 3.6406)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.5737 -3.4419)
+					(center 2.5667 -2.5143)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -4292,7 +4292,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 3.9474 -0.5208) (xy 4.0744 -0.3938) (xy 4.8364 -0.3938) (xy 4.9634 -0.2668)
 					)
 					(stroke
 						(width 0)
@@ -4304,7 +4304,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 4.4554 -0.3938) (xy 4.0744 0.2412) (xy 4.8364 0.2412) (xy 4.4554 -0.3938)
 					)
 					(stroke
 						(width 0)
@@ -4326,7 +4326,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4344,7 +4344,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4362,7 +4362,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5923,6 +5923,12 @@
 			(uuid "921afb2d-6dbe-40c0-b4b0-c75b20b8abe7")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R8")
@@ -6000,6 +6006,12 @@
 			(uuid "b4edb091-e6f0-4f60-a0e4-be25741aba70")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "OUT")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "OUT")
@@ -6085,6 +6097,12 @@
 			(uuid "e7015156-db7d-4ab8-9e07-35845e585319")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "P1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "P1")
@@ -6168,6 +6186,12 @@
 			(uuid "7d514e6a-4dc5-49ff-bcc7-6034dd34b6e6")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R12")
@@ -6251,6 +6275,12 @@
 			(uuid "adacdeb1-8768-4d32-9bd9-7db4e850234e")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R6")
@@ -6331,6 +6361,12 @@
 			(uuid "3e7f9665-b0a8-4e60-afa5-b28c6e26f375")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C2")
@@ -6413,6 +6449,12 @@
 			(uuid "eaf069c1-4fb5-45d6-a4df-cb6aafb0a4ae")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C7")
@@ -6523,6 +6565,12 @@
 			(uuid "9ca310b7-da9d-4e8a-9c35-79d7da086ec1")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "T2")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "T2")
@@ -6627,6 +6675,12 @@
 			(uuid "164e2d9b-ec47-4ce3-8dbe-2d0b87687beb")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "D6")
@@ -6707,6 +6761,12 @@
 			(uuid "af7917cb-633b-4e83-9993-23ca615734e4")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R13")
@@ -6788,6 +6848,12 @@
 			(uuid "12d2e2ce-b6ac-406b-ad64-f28acda6a128")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C3")
@@ -6807,8 +6873,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d649d11-877c-4c7c-b276-517fd5762d23")
-		(property "Reference" "T4"
-			(at 201.93 134.62 0)
+		(property "Reference" "T"
+			(at 205.232 138.938 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6819,7 +6885,7 @@
 			)
 		)
 		(property "Value" "IRF540"
-			(at 201.93 132.08 0)
+			(at 204.216 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6865,16 +6931,22 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "85967e63-cca2-4302-9edd-7a0a0801d904")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "be9e6681-9358-448e-9f40-c08b5053a696")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "35f6f4d0-842d-4c28-a271-7754279616b6")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "T")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "T4")
@@ -6953,6 +7025,12 @@
 			(uuid "2ee7226f-9120-4342-ac21-28ac3b54f36e")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "Vcc1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "Vcc1")
@@ -7030,6 +7108,12 @@
 			(uuid "f6b5cfb6-c4ff-4a1a-acc4-e1fbe0e25af1")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "IN1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "IN1")
@@ -7110,6 +7194,12 @@
 			(uuid "e8723c61-55eb-4fdb-b1d0-4d2db22bf787")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R3")
@@ -7188,6 +7278,12 @@
 			(uuid "5b6e643e-42a2-45d7-b7f3-5d1b5151d537")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "#FLG03")
@@ -7291,6 +7387,12 @@
 			(uuid "5795aa81-9fc7-402f-81d3-676b83aaef49")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "D5")
@@ -7311,7 +7413,7 @@
 		(dnp no)
 		(uuid "7c9497dd-ae73-4ff6-b59b-00786fc345c7")
 		(property "Reference" "D3"
-			(at 175.26 43.8149 90)
+			(at 163.83 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7322,7 +7424,7 @@
 			)
 		)
 		(property "Value" "ZPD12"
-			(at 157.48 44.45 90)
+			(at 162.56 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7372,6 +7474,12 @@
 			(uuid "cb8a80fb-33a7-4f7c-a861-9ea7c15b33e8")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "D3")
@@ -7450,16 +7558,22 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "30a8448b-cb70-4172-9c72-93298c5a3c24")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "3df416ff-011f-4c0f-b2c6-51107392a0ee")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "f3c8ad50-8072-4d00-9955-0a20e8b6b6ac")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "T3")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "T3")
@@ -7540,6 +7654,12 @@
 			(uuid "f6e62f08-b422-4ca7-8910-475af4857ec6")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R7")
@@ -7621,6 +7741,12 @@
 			(uuid "2531cdcf-fefe-4980-bcde-d90a026c0ab1")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C6")
@@ -7731,6 +7857,12 @@
 			(uuid "cf7ffdf2-bbcd-4e01-b63d-8aa3ae37d4da")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "T1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "T1")
@@ -7811,6 +7943,12 @@
 			(uuid "b50eefa3-275e-4f69-bef9-e33156a3b5dc")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C4")
@@ -7889,6 +8027,12 @@
 			(uuid "5eb487ad-91cd-4bfe-96df-633f5444b42d")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "GND1")
@@ -7968,6 +8112,12 @@
 			(uuid "2438d983-2e82-4007-9b65-f2933b89d625")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "#FLG01")
@@ -8051,6 +8201,12 @@
 			(uuid "7a6124c8-97a5-430c-a93b-aa0f97f1a28e")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R9")
@@ -8134,6 +8290,12 @@
 			(uuid "a7be940c-ae4f-4d90-8641-458046846c98")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R1")
@@ -8217,6 +8379,12 @@
 			(uuid "51b2b810-5784-4f49-95c6-286b6fafb277")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "D1")
@@ -8300,6 +8468,12 @@
 			(uuid "00c32518-196e-4d79-a389-ce63e3ed248a")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R11")
@@ -8382,6 +8556,12 @@
 			(uuid "c8c39a1a-f6e6-44a3-94bb-d5539eee224e")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C8")
@@ -8464,6 +8644,12 @@
 			(uuid "226d77c6-ea23-45c9-877e-72fb91d10d46")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R5")
@@ -8547,6 +8733,12 @@
 			(uuid "dae64583-6648-4dca-82e7-1d5500806dda")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "D2")
@@ -8627,6 +8819,12 @@
 			(uuid "af22a3b4-ee78-4e02-afd9-d72accd1ca78")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R4")
@@ -8709,6 +8907,12 @@
 			(uuid "c9b629d4-472d-477d-a7b7-0e11b293bf7b")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "D4")
@@ -8790,6 +8994,12 @@
 			(uuid "3f14e553-e3e5-43eb-8858-25e04ae568b8")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R2")
@@ -8870,6 +9080,12 @@
 			(uuid "d9093022-cf68-4518-aee1-968a7bc13390")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C1")
@@ -8953,6 +9169,12 @@
 			(uuid "d53b88da-6262-4db1-bdb5-41b383f238ec")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R10")
@@ -9032,6 +9254,12 @@
 			(uuid "6987ae39-a3c7-4154-b262-dec7a89d51a8")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "Vcc2")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "Vcc2")
@@ -9135,6 +9363,12 @@
 			(uuid "13cbeafe-531b-4021-8f70-85678eb1b717")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "U2")
+					(unit 3)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "U2")
@@ -9214,6 +9448,12 @@
 			(uuid "6bbdb6c6-337a-44ef-8605-b61375c5e6c1")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "#PWR01")
@@ -9293,6 +9533,12 @@
 			(uuid "9cca8ede-376e-41ea-a330-71b11e879fec")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "#FLG02")
@@ -9392,6 +9638,12 @@
 			(uuid "0695e6f5-237a-4d26-8c55-1a76ef47c933")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "U1")
@@ -9473,6 +9725,12 @@
 			(uuid "67e40e72-c07c-44de-b691-12d7e50647a5")
 		)
 		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "C5")
