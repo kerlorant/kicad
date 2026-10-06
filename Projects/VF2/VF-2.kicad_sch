@@ -4873,7 +4873,7 @@
 	)
 	(polyline
 		(pts
-			(xy -218.44 -10.16) (xy -19.05 -10.16)
+			(xy -223.52 1.27) (xy -24.13 1.27)
 		)
 		(stroke
 			(width 0)
@@ -5073,7 +5073,7 @@
 	)
 	(polyline
 		(pts
-			(xy -218.44 125.73) (xy -19.05 125.73)
+			(xy -223.52 137.16) (xy -24.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5613,7 +5613,7 @@
 	)
 	(polyline
 		(pts
-			(xy -19.05 -10.16) (xy -19.05 125.73)
+			(xy -24.13 1.27) (xy -24.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5793,7 +5793,7 @@
 	)
 	(polyline
 		(pts
-			(xy -218.44 -10.16) (xy -218.44 125.73)
+			(xy -223.52 1.27) (xy -223.52 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7491,6 +7491,7 @@
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
 		(at 196.85 63.5 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7498,10 +7499,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ce88bf0-ba3a-4114-9cce-21801b6749ae")
 		(property "Reference" "T3"
-			(at 204.47 62.2299 0)
+			(at 204.47 64.7701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7512,7 +7512,7 @@
 			)
 		)
 		(property "Value" "IRF9540"
-			(at 204.47 64.7699 0)
+			(at 204.47 62.2301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7523,7 +7523,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 201.93 65.405 0)
+			(at 201.93 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7536,7 +7536,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 201.93 67.31 0)
+			(at 201.93 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7548,7 +7548,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 192.786 55.372 0)
+			(at 192.786 71.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
