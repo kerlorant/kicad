@@ -5962,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 154.94 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -6027,7 +6027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0709d4bf-97bd-45de-83df-71bcb97aaa49")
-		(property "Reference" "OUT"
+		(property "Reference" "OUT1"
 			(at 228.6 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6048,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" ""
 			(at 224.282 96.266 0)
 			(hide yes)
 			(show_name no)
@@ -6087,7 +6087,7 @@
 		(instances
 			(project "VF-2"
 				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
-					(reference "OUT")
+					(reference "OUT1")
 					(unit 1)
 				)
 			)
@@ -6133,7 +6133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 177.038 98.044 90)
 			(hide yes)
 			(show_name no)
@@ -6398,7 +6398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 78.74 174.9552 0)
 			(hide yes)
 			(show_name no)
@@ -6486,7 +6486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" ""
 			(at 200.66 61.595 0)
 			(hide yes)
 			(show_name no)
@@ -6574,7 +6574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 160.9852 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6661,7 +6661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" ""
 			(at 187.706 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6777,7 +6777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 186.436 149.352 0)
 			(hide yes)
 			(show_name no)
@@ -6972,7 +6972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 98.7552 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7142,7 +7142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" ""
 			(at 66.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7225,7 +7225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 97.79 175.768 90)
 			(hide yes)
 			(show_name no)
@@ -7396,7 +7396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 186.436 59.182 0)
 			(hide yes)
 			(show_name no)
@@ -7505,7 +7505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" ""
 			(at 168.148 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7591,7 +7591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 154.94 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -7678,7 +7678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 127.9652 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7766,7 +7766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" ""
 			(at 187.706 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7880,7 +7880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 123.19 160.3248 0)
 			(hide yes)
 			(show_name no)
@@ -8316,7 +8316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" ""
 			(at 138.938 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8493,7 +8493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 160.9852 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +8670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" ""
 			(at 138.938 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8756,7 +8756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 121.92 175.768 90)
 			(hide yes)
 			(show_name no)
@@ -8844,7 +8844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" ""
 			(at 169.418 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9193,7 +9193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 219.71 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9663,7 +9663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" ""
 			(at 200.66 147.066 0)
 			(hide yes)
 			(show_name no)
@@ -9750,7 +9750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 127.9652 86.36 0)
 			(hide yes)
 			(show_name no)
