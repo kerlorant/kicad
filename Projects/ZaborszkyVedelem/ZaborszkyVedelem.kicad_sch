@@ -1,0 +1,342 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e1c51cef-4573-421c-80e0-19d6e8260af0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "001_atmeneti_Device:kapcsolo"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K1"
+				(at 2.54 6.35 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "kapcsolo"
+				(at -1.2699 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "kapcsolo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "kapcsolo_0_1"
+				(circle
+					(center -2.2606 0)
+					(radius 0.2736)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.1336 0.2794) (xy 0.9398 2.5908) (xy 0.9144 2.5908) (xy 0.889 2.5654)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.1844 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "kapcsolo_1_1"
+				(pin passive line
+					(at -5.08 -0.0254 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(polyline
+		(pts
+			(xy 220.98 154.94) (xy 76.2 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4371e80f-6211-4f93-ac95-68f0a87bae2c")
+	)
+	(polyline
+		(pts
+			(xy 76.2 54.61) (xy 76.2 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6146838f-8f8b-43c5-9b88-e33729258025")
+	)
+	(polyline
+		(pts
+			(xy 48.26 173.99) (xy 247.65 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a141355-9342-4597-89ad-592297d8ec4e")
+	)
+	(polyline
+		(pts
+			(xy 220.98 54.61) (xy 220.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca17f57b-39f4-40d9-9ac1-9e6e5417f77f")
+	)
+	(polyline
+		(pts
+			(xy 48.26 38.1) (xy 247.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca91731c-1ca1-44f0-829c-b5d68ef7e507")
+	)
+	(polyline
+		(pts
+			(xy 247.65 38.1) (xy 247.65 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47a9b26-535b-4418-8f1d-8269030c455f")
+	)
+	(polyline
+		(pts
+			(xy 48.26 38.1) (xy 48.26 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9163ff5-199e-460f-8537-25df796be4a3")
+	)
+	(polyline
+		(pts
+			(xy 76.2 54.61) (xy 220.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfa41ab-3154-4142-b8d3-c3c5ed51ba88")
+	)
+	(symbol
+		(lib_id "001_atmeneti_Device:kapcsolo")
+		(at 93 68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdf0ac71-7931-4e33-9a95-2fce86ae3cf8")
+		(property "Reference" "K2"
+			(at 94.9 67.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "kapcsolo"
+			(at 94.27 69.2699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "000_Button_Switch:SW_Simpla_Forrszemes"
+			(at 93 68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93 68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93 68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3fbf0628-a708-4d8f-8386-1d0ee8607119")
+		)
+		(pin "1"
+			(uuid "b4348b7a-900d-4f71-a608-7f84332699a4")
+		)
+		(instances
+			(project "ZaborszkyVedelem"
+				(path "/e1c51cef-4573-421c-80e0-19d6e8260af0"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(group ""
+		(uuid "184d0e7c-7b1a-4859-bc6f-0a8924e97fe2")
+		(members "9a141355-9342-4597-89ad-592297d8ec4e" "ca91731c-1ca1-44f0-829c-b5d68ef7e507"
+			"d47a9b26-535b-4418-8f1d-8269030c455f" "d9163ff5-199e-460f-8537-25df796be4a3"
+		)
+	)
+	(group ""
+		(uuid "238429e9-000e-40fb-8ab3-d517614bb9a8")
+		(members "4371e80f-6211-4f93-ac95-68f0a87bae2c" "6146838f-8f8b-43c5-9b88-e33729258025"
+			"ca17f57b-39f4-40d9-9ac1-9e6e5417f77f" "ebfa41ab-3154-4142-b8d3-c3c5ed51ba88"
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

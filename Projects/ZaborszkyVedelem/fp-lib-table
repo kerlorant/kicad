@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "000_Button") (type "KiCad") (uri "${KICAD_FOOTPRINTJEIM}/000_Button.pretty") (options "") (descr ""))
+)
