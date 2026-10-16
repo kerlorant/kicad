@@ -1,4 +1,4 @@
-Fontos: ha nem elõfokról hajtod, hanem közvetlen a végfok elé rakod a hangerõ szabályzót, akkor a bemeneten a 220pF kondit cseréled 22pF-ra, és a 2,2k (2,7k) és 470pF szûrõbõl és potméterbõl álló tagot teszed a végfok elé.
+Fontos: ha nem elõfokról hajtod, hanem közvetlen a végfok elé rakod a hangerõ szabályzót, akkor a bemeneten a 220pF kondit cseréled 22pF-ra, és a 2,2k (2,7k) és 470pF szûrõbõl és potméterbõl álló tagot teszed a végfok elé (gondolom, hogy a 220p elõtt levõ szûrõt teljesen kihagyni és helyette a másikat, amirõl van rajzom is).
 
 Az erõsítõ elkészítése:
 

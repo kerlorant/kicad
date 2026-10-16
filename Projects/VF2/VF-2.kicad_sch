@@ -4712,12 +4712,6 @@
 		(uuid "023f9d98-9834-48c0-969d-2b397664e767")
 	)
 	(junction
-		(at 199.39 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "116f30e7-5f1e-44c9-b7b9-0ba53fef99ce")
-	)
-	(junction
 		(at 97.79 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4736,10 +4730,22 @@
 		(uuid "450b886e-f29d-4102-9ea2-306b52604179")
 	)
 	(junction
+		(at 224.79 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4828d1ca-da28-4aea-a74a-8043e5331fa2")
+	)
+	(junction
 		(at 102.87 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52e5fe52-d5e5-4751-829a-7737ca772b77")
+	)
+	(junction
+		(at 215.9 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "575aa393-6166-4ad5-921a-5d17bb6102c3")
 	)
 	(junction
 		(at 127 106.68)
@@ -4850,6 +4856,12 @@
 		(uuid "9f0fc15f-791c-48a1-9161-96e4836479ef")
 	)
 	(junction
+		(at 215.9 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8660e79-0dd6-4936-ad0d-ada2c32415b2")
+	)
+	(junction
 		(at 160.02 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4868,18 +4880,6 @@
 		(uuid "d1cf2c4f-312a-416f-a144-4aac3b300427")
 	)
 	(junction
-		(at 199.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3744c9c-1a7b-481a-aec0-7f5235f746ed")
-	)
-	(junction
-		(at 199.39 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7bc857b-072b-4906-b5bd-e37a362f130f")
-	)
-	(junction
 		(at 184.15 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4893,6 +4893,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 140.97) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028236ac-3bf9-4e2a-8016-887be7eb2a2f")
+	)
+	(wire
+		(pts
 			(xy 184.15 121.92) (xy 184.15 124.46)
 		)
 		(stroke
@@ -4900,6 +4910,16 @@
 			(type default)
 		)
 		(uuid "05030966-a1e5-4869-abab-66418d7710fd")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.12) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089f4597-2646-4d33-94a4-5336f3f84d72")
 	)
 	(polyline
 		(pts
@@ -4923,7 +4943,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 168.91) (xy 219.71 168.91)
+			(xy 184.15 168.91) (xy 215.9 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5043,6 +5063,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 140.97) (xy 184.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3ef647-d134-4159-a077-6aa038df496a")
+	)
+	(wire
+		(pts
 			(xy 186.69 93.98) (xy 184.15 93.98)
 		)
 		(stroke
@@ -5103,13 +5133,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 38.1) (xy 220.98 38.1)
+			(xy 240.03 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ba28694-c4d5-4787-979c-d9a7bb895418")
+		(uuid "3a6c957f-3783-4424-8a3a-4acec876b179")
 	)
 	(wire
 		(pts
@@ -5153,6 +5183,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 148.59) (xy 215.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ce9509-0637-4dc9-8419-0f81c5202e5f")
+	)
+	(wire
+		(pts
+			(xy 224.79 99.06) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c56684-9d9b-4e98-af35-013ac8d7a5be")
+	)
+	(wire
+		(pts
 			(xy 110.49 72.39) (xy 127 72.39)
 		)
 		(stroke
@@ -5163,7 +5213,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 38.1) (xy 199.39 38.1)
+			(xy 184.15 38.1) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5273,13 +5323,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 133.35) (xy 199.39 93.98)
+			(xy 240.03 99.06) (xy 240.03 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b57d49c-1fa7-4386-82d2-cfc7243e00c1")
+		(uuid "5c5d8ac0-3df7-4d4f-bad5-2116b6142b47")
 	)
 	(wire
 		(pts
@@ -5393,16 +5443,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 140.97) (xy 184.15 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85340ec5-cd78-4e0f-83ff-68e2d8cb0c13")
-	)
-	(wire
-		(pts
 			(xy 160.02 132.08) (xy 157.48 132.08)
 		)
 		(stroke
@@ -5513,13 +5553,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 93.98) (xy 215.9 173.99)
+			(xy 215.9 38.1) (xy 220.98 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b93c838-3229-4fc8-aed9-10ae80629c0f")
+		(uuid "9afd7e41-e3f8-48f6-b528-554124faa537")
 	)
 	(wire
 		(pts
@@ -5563,7 +5603,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 173.99) (xy 215.9 173.99)
+			(xy 125.73 173.99) (xy 240.03 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5643,6 +5683,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 55.88) (xy 215.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90153db-400e-4116-9595-f742a7da39a5")
+	)
+	(wire
+		(pts
 			(xy 127 78.74) (xy 127 72.39)
 		)
 		(stroke
@@ -5660,6 +5710,16 @@
 			(type default)
 		)
 		(uuid "c24f7a20-d7c4-42c2-a178-a5a293861e22")
+	)
+	(wire
+		(pts
+			(xy 215.9 168.91) (xy 219.71 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32900e4-afd6-451e-bb12-4855947edd88")
 	)
 	(polyline
 		(pts
@@ -5713,16 +5773,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 71.12) (xy 199.39 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d33fdaa9-9b3a-42d8-b429-c98c1f938c7c")
-	)
-	(wire
-		(pts
 			(xy 172.72 140.97) (xy 184.15 140.97)
 		)
 		(stroke
@@ -5743,23 +5793,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 168.91) (xy 184.15 168.91)
+			(xy 215.9 133.35) (xy 215.9 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da14571b-a060-4a3f-888e-31b7cb3dc164")
+		(uuid "d9bdeeb4-9aa6-48a7-ada0-f24c93652912")
 	)
 	(wire
 		(pts
-			(xy 199.39 148.59) (xy 199.39 168.91)
+			(xy 200.66 63.5) (xy 205.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dea875e1-58d9-4716-8598-92356997cf99")
+		(uuid "e0853699-af09-4994-b67e-8eb8c1c1b64c")
 	)
 	(wire
 		(pts
@@ -5903,16 +5953,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 55.88) (xy 199.39 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc6d9b55-26a5-4f06-89c8-43261ee6ad40")
-	)
-	(wire
-		(pts
 			(xy 184.15 139.7) (xy 184.15 140.97)
 		)
 		(stroke
@@ -6011,6 +6051,85 @@
 			(project "VF-2-modositott"
 				(path "/e94c4895-4a77-4b8d-b859-3799a2696e1a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Device:R")
+		(at 199.39 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0459e4ea-0d8c-4a8d-a504-a7da2852d850")
+		(property "Reference" "R15"
+			(at 196.85 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 196.85 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 142.748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.675 139.065 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d57fb220-062a-459b-86f2-8b2faecb003d")
+		)
+		(pin "1"
+			(uuid "66511adf-bbcc-4e4e-81d7-29ef7b331e94")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "000_Device:Transistor_FET_P")
-		(at 195.58 63.5 0)
+		(at 212.09 63.5 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6465,7 +6584,7 @@
 		(dnp no)
 		(uuid "2ae5bf00-f7e1-44d8-83ea-650d60179dd5")
 		(property "Reference" "T3"
-			(at 203.2 61.595 0)
+			(at 219.71 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6476,7 +6595,7 @@
 			)
 		)
 		(property "Value" "IRF9540"
-			(at 203.2 65.405 0)
+			(at 219.71 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6487,7 +6606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 61.595 0)
+			(at 217.17 61.595 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6500,7 +6619,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 200.66 59.69 0)
+			(at 217.17 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6631,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 191.516 71.628 0)
+			(at 208.026 71.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7364,6 +7483,85 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Device:R")
+		(at 198.12 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "757b9ca6-92c1-467f-8842-ca6be4c73f37")
+		(property "Reference" "R14"
+			(at 193.04 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 194.31 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 65.278 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 192.405 61.595 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b0965987-56e0-40b9-bca2-429a0ab3baad")
+		)
+		(pin "1"
+			(uuid "24ac2a07-eda7-4f43-b3fe-97d87f9d117d")
+		)
+		(instances
+			(project "VF-2"
+				(path "/a4dac9d1-a4ef-4cb2-9f5b-b3d5cd44301f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 184.15 59.69 90)
 		(unit 1)
@@ -7375,7 +7573,7 @@
 		(dnp no)
 		(uuid "77e16f3c-7c8d-4f8f-89c8-4d6c75d43e2c")
 		(property "Reference" "D5"
-			(at 187.96 54.61 90)
+			(at 186.69 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7386,7 +7584,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 186.69 57.15 90)
+			(at 179.07 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9631,7 +9829,7 @@
 	(symbol
 		(lib_name "Transistor_FET_P_1")
 		(lib_id "000_Device:Transistor_FET_P")
-		(at 195.58 140.97 0)
+		(at 212.09 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9642,7 +9840,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4bf4dd3-da2f-498b-9400-4b9fe01645ed")
 		(property "Reference" "T4"
-			(at 203.2 139.065 0)
+			(at 219.71 139.065 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9653,7 +9851,7 @@
 			)
 		)
 		(property "Value" "IRF540"
-			(at 203.2 142.875 0)
+			(at 219.71 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9664,7 +9862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 147.066 0)
+			(at 217.17 147.066 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9677,7 +9875,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 200.66 144.78 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9689,7 +9887,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 191.516 132.842 0)
+			(at 208.026 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
