@@ -1177,6 +1177,203 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TL431D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL431"
+			(at 0 -4.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+			(at 0.254 -10.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "Shunt Regulator, SO-8"
+			(at -0.254 -8.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode device shunt regulator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOIC?8*3.9x4.9mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TL431D_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -0.762) (xy -0.762 0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TL431D_1_1"
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[2,3,6,7]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Transistor_FET_N"
 		(pin_names
 			(offset 0)
@@ -1186,8 +1383,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "T"
-			(at 5.08 3.556 0)
+		(property "Reference" "T4"
+			(at 5.08 4.826 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1197,13 +1394,14 @@
 			)
 		)
 		(property "Value" "FET_N"
-			(at 7.112 1.524 0)
+			(at 5.08 2.5401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
@@ -1242,7 +1440,7 @@
 		(symbol "Transistor_FET_N_0_1"
 			(polyline
 				(pts
-					(xy -1.0522 0.7521) (xy -3.8462 0.7521)
+					(xy -1.1262 1.2658) (xy -3.9202 1.2658)
 				)
 				(stroke
 					(width 0)
@@ -1266,7 +1464,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 4.826) (xy -0.508 3.81)
+					(xy -0.4277 4.7979) (xy -0.4277 3.7819)
 				)
 				(stroke
 					(width 0.254)
@@ -1278,7 +1476,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 3.048) (xy -0.508 2.032)
+					(xy -0.399 1.297) (xy -0.399 0.281)
 				)
 				(stroke
 					(width 0.254)
@@ -1290,7 +1488,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 1.27) (xy -0.508 0.254)
+					(xy -0.3702 3.0479) (xy -0.3702 2.0319)
 				)
 				(stroke
 					(width 0.254)
@@ -1302,7 +1500,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.4999 0.7523) (xy 2.4683 0.7555)
+					(xy -0.3161 0.7519) (xy 2.4683 0.7555)
 				)
 				(stroke
 					(width 0)
@@ -1314,7 +1512,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.3153 2.6075) (xy 0.9547 3.8775)
+					(xy -0.1593 2.5542) (xy 1.1107 3.8242)
 				)
 				(stroke
 					(width 0)
@@ -1325,7 +1523,7 @@
 				)
 			)
 			(circle
-				(center 0.381 2.54)
+				(center 0.7245 2.4555)
 				(radius 3.429)
 				(stroke
 					(width 0.254)
@@ -1337,7 +1535,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.9547 1.1798) (xy -0.3153 2.4498)
+					(xy 1.1356 1.2399) (xy -0.1344 2.5099)
 				)
 				(stroke
 					(width 0)
@@ -1373,7 +1571,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 2.54) (xy -0.508 2.54)
+					(xy 2.5401 -1.2823) (xy 2.5401 2.5277) (xy -0.1521 2.5281)
 				)
 				(stroke
 					(width 0)
@@ -1386,7 +1584,7 @@
 		)
 		(symbol "Transistor_FET_N_1_1"
 			(pin input line
-				(at -6.3327 0.7522 0)
+				(at -6.35 1.27 0)
 				(length 2.54)
 				(name "G"
 					(effects
@@ -1451,8 +1649,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "T"
-			(at 6.35 1.2701 0)
+		(property "Reference" "T3"
+			(at 6.35 -1.0079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1462,8 +1660,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FET_P"
-			(at 6.35 -1.2699 0)
+		(property "Value" "IRF9540"
+			(at 6.35 1.5321 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1487,7 +1685,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 5.08 -3.81 0)
+			(at 5.1129 -3.2855 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1499,7 +1697,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 0 -3.556 0)
+			(at 0.0329 -3.0315 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1534,7 +1732,7 @@
 		(symbol "Transistor_FET_P_0_1"
 			(polyline
 				(pts
-					(xy 0.246 -1.8218) (xy -2.548 -1.8218)
+					(xy 0.2617 -1.2758) (xy -2.5323 -1.2758)
 				)
 				(stroke
 					(width 0)
@@ -1546,7 +1744,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.2492 2.2086) (xy 0.2545 -2.249)
+					(xy 0.2821 2.7331) (xy 0.2874 -1.7245)
 				)
 				(stroke
 					(width 0.254)
@@ -1558,7 +1756,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
+					(xy 0.7949 2.8105) (xy 0.7949 1.7945)
 				)
 				(stroke
 					(width 0.254)
@@ -1570,7 +1768,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
+					(xy 0.7949 1.0325) (xy 0.7949 0.0165)
 				)
 				(stroke
 					(width 0.254)
@@ -1582,7 +1780,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
+					(xy 0.7949 -0.7455) (xy 0.7949 -1.7615)
 				)
 				(stroke
 					(width 0.254)
@@ -1594,7 +1792,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.7701 -1.7877) (xy 3.7383 -1.7845)
+					(xy 0.803 -1.2632) (xy 3.7712 -1.26)
 				)
 				(stroke
 					(width 0)
@@ -1605,7 +1803,7 @@
 				)
 			)
 			(circle
-				(center 1.651 0)
+				(center 1.6839 0.5245)
 				(radius 3.429)
 				(stroke
 					(width 0.254)
@@ -1617,7 +1815,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.8088 1.7634) (xy 0.8058 1.7698)
+					(xy 3.81 -3.81) (xy 3.8429 0.5245) (xy 0.7949 0.5245)
 				)
 				(stroke
 					(width 0)
@@ -1629,7 +1827,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 3.81) (xy 3.81 1.778)
+					(xy 3.8159 4.3935) (xy 3.8159 2.3615)
 				)
 				(stroke
 					(width 0)
@@ -1641,7 +1839,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 2.54 1.27)
+					(xy 3.819 2.3303) (xy 0.816 2.3367)
 				)
 				(stroke
 					(width 0)
@@ -1653,7 +1851,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 2.54 -1.27)
+					(xy 3.8429 0.5245) (xy 2.5729 1.7945)
 				)
 				(stroke
 					(width 0)
@@ -1665,7 +1863,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -3.81) (xy 3.81 0) (xy 0.762 0)
+					(xy 3.8429 0.5245) (xy 2.5729 -0.7455)
 				)
 				(stroke
 					(width 0)
@@ -1678,7 +1876,7 @@
 		)
 		(symbol "Transistor_FET_P_1_1"
 			(pin input line
-				(at -5.1063 -1.8218 0)
+				(at -5.08 -1.27 0)
 				(length 2.54)
 				(name "G"
 					(effects
