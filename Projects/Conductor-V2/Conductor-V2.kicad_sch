@@ -6145,7 +6145,7 @@
 				)
 			)
 		)
-		(property "Value" "11k"
+		(property "Value" "10k"
 			(at 172.72 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6225,7 +6225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "15k"
 			(at 138.43 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,10 +6854,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "92a3e2c5-1718-4513-8564-807583efb7e1")
 		(property "Reference" "R19"
-			(at 111.7601 137.16 0)
+			(at 106.68 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6868,7 +6867,7 @@
 			)
 		)
 		(property "Value" "560R"
-			(at 109.2201 137.16 0)
+			(at 106.68 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7289,7 +7288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "2k2"
 			(at 149.86 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,7 +7530,7 @@
 				)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1k2"
 			(at 161.29 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8019,10 +8018,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1095382-9bf1-4c60-828e-5e9b5bb6680a")
 		(property "Reference" "R6"
-			(at 147.32 71.1199 0)
+			(at 146.459 70.9478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8032,8 +8030,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11k"
-			(at 147.32 73.6599 0)
+		(property "Value" "8k6"
+			(at 146.2868 73.2724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8433,7 +8431,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 118.11 132.08 90)
+			(at 119.38 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8776,10 +8774,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e2741774-4e13-41b2-b84d-a5db4a678c6e")
 		(property "Reference" "R20"
-			(at 100.3301 137.16 0)
+			(at 96.52 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8790,7 +8787,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 97.7901 137.16 0)
+			(at 96.52 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
