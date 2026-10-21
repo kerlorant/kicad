@@ -67,8 +67,30 @@
     "version": 5
   },
   "net_inspector_panel": {
-    "col_hidden": [],
-    "col_order": [],
+    "col_hidden": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "col_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
     "col_widths": [],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -87,8 +109,20 @@
   "project": {
     "files": [
       {
-        "name": "Conductor-V2.kicad_sch",
+        "name": "Conductor-V2.kicad_pcb",
         "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 86,
+          "pos_y": 374,
+          "size_x": 1238,
+          "size_y": 680
+        }
+      },
+      {
+        "name": "Conductor-V2.kicad_sch",
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
