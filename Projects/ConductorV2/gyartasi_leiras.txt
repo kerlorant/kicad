@@ -1,0 +1,13 @@
+Fontos: ha nem elõfokról hajtod, hanem közvetlen a végfok elé rakod a hangerõ szabályzót, akkor a bemeneten a 220pF kondit cseréled 22pF-ra, és a 2,2k és 470pF szûrõbõl és potméterbõl álló tagot teszed a végfok elé (gondolom, hogy a 220p elõtt levõ szûrõt teljesen kihagyni és helyette a másikat, amirõl van rajzom is).
+
+Az erõsítõ elkészítése:
+
+A nyomtatott áramkör elkészítése után ültessétek be az alkatrészeket a kapcsolási rajz és a beültetési rajz alapján. A végtranzisztorok (IRF540N és IRF 9540N) Gate-kivezetéseit vágjátok le. Csak egy 3-4mm-es csonk maradjon. Erre a csonkra forrasszátok rá a 220 Ohm-os lehetõleg kis méretû (negyed vattos) Gate-levezetõ ellenállást. Tehát így, az ellenállás ráforrasztásával ültessétek be a végtranzisztorokat. (A végtranzisztorok felszerelésénél természetesen szigetelögyürüt, csillám, vagy szilikon szigetelõlemezt és hõvezetõ pasztát (szilikonzsírt) kell alkalmazni. Az L-idom fúrásához a nyák rajzot kinyomtatva, celluxal felragasztva pontozási sablonként lehet használni. Természetesen az összes furatot tökéletesen sorjátlanítani kell! A rögzítõ anyákat (jól lecsiszolva a krómréteget) forrasztani is lehet  a nyákhoz (elõször végtranyók nélkül felszereljük az L-idomot és felforrasztjuk az anyákat).Így sokkal könnyebb lessz a végtranzisztorok felszerelése.
+
+Következõ lépés az élesztés: 
+
+Beültetésnél a 2,2Kohm-os trimmert maximális, 2,2Kohm-os értékkel kell beültetni. Ennek két kivezetése a nyákon össze van kötve, tehát egy állítható ellenállásként funkcionál. Ezt rövidzár felé tekerve fog nõni a nyugalmi áram kb a középállás után. A nyugalmi áramot a tápfezültségági biztosítékok foglalatába betett U-alakban meghajlított lábú 10 Ohm-os ellenállásokon mért feszültség alapján állítsátok be. 50-80mA legyen a nyugalmi áram. Ez azt jelenti, hogy a biztosítékfoglalatokba betett 10 Ohm-ok egyikén 500-800mV feszültségnek kell lennie. (Ezek az ellenállások egyúttal védik is az erõsítõt az élesztés idején, ha túl nagy áramot venne fel a hibásan összeállított erõsítõ, ezek korlátozzák az átfolyó áramot és ezek égnek el a végtranyók helyett). Miután beállítottuk a nyugalmi áramot, mérjük meg az erõsítõ kimenetén az egyenfeszültséget. Ez nem lehet nagyobb +-100mV-nál. (Az 51Kohm-os ellenállás értékével trimmerelhetõ). Ha minden rendben, akkor ki lehet venni a 10 Ohm-okat a biztosítékfoglalatokból és betehetjük a biztosítékokat. (4 Ohm-os hangsugárzóhoz 3A-es biztosítékok kellenek, 8 Ohm-oshoz elég az 1,6A-es is).
+
+Az erõsítõ tápfeszültsége 4Ohm-ra +-30V lehet (80W), vagy 8Ohm-ra +-40V (80W)
+
+
