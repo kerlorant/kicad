@@ -430,7 +430,7 @@
         "uuid": "e1c51cef-4573-421c-80e0-19d6e8260af0"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-5,C1-7,Csatlakozó1,D1-6,GND1,IN1,K1-2,Q1,R1-17,SW1,T1-11,VCC1",
+    "used_designators": "#FLG1-2,#PWR1-12,C1-11,Csatlakozó1,D1-10,GND1,IN1,K1-2,Q1,R1-17,SW1,T1-11,U1,VCC1",
     "variants": []
   },
   "sheets": [

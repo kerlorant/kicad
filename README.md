@@ -5,5 +5,6 @@ Sidetone: a morse voice generator (for HAM)
 Novice: only learning.
 Labortap: a power supply for research works
 Hiraga: Michael Hiraga's A class amplifier.
+ConductorV2: very good amplifier with FET.
 
 
