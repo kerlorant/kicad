@@ -316,7 +316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "000_Button_Switch:SW_Simpla_Forrszemes"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
