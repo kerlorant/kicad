@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "798fa250-c5e0-4159-bbc2-110d68d75d99")
+	(paper "A4")
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 0 1.27) (xy 199.39 1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dc9f89-ec2d-45b7-bef1-94e0beffe77f")
+	)
+	(polyline
+		(pts
+			(xy 199.39 1.27) (xy 199.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c47067-fd57-4421-9800-7d0fe51482a2")
+	)
+	(polyline
+		(pts
+			(xy 146.05 101.6) (xy 1.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6dc1b8-25a0-4d7d-8976-04c7fabed8c3")
+	)
+	(polyline
+		(pts
+			(xy 1.27 1.27) (xy 146.05 1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc232c6-e5e1-401c-be9b-473547a59099")
+	)
+	(polyline
+		(pts
+			(xy 0 1.27) (xy 0 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b1ba83-d442-40cd-b038-3c49228da3da")
+	)
+	(polyline
+		(pts
+			(xy 0 137.16) (xy 199.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e072a5cf-71bc-424b-b283-bab9f6057ee2")
+	)
+	(polyline
+		(pts
+			(xy 146.05 1.27) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83489ce-e9b7-465a-9ac9-19b1460c94a2")
+	)
+	(polyline
+		(pts
+			(xy 1.27 1.27) (xy 1.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84da32e-e9c2-4c4c-8ff1-b15de326bc41")
+	)
+	(group ""
+		(uuid "4da45fcc-1c2c-4e98-a73c-bbf85e08a01c")
+		(members "21dc9f89-ec2d-45b7-bef1-94e0beffe77f" "24c47067-fd57-4421-9800-7d0fe51482a2"
+			"d5b1ba83-d442-40cd-b038-3c49228da3da" "e072a5cf-71bc-424b-b283-bab9f6057ee2"
+		)
+	)
+	(group ""
+		(uuid "b1e7c12d-cc2e-49ce-a0a4-7dabfa8a5872")
+		(members "2b6dc1b8-25a0-4d7d-8976-04c7fabed8c3" "afc232c6-e5e1-401c-be9b-473547a59099"
+			"e83489ce-e9b7-465a-9ac9-19b1460c94a2" "f84da32e-e9c2-4c4c-8ff1-b15de326bc41"
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

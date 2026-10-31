@@ -3422,6 +3422,16 @@
 		)
 		(uuid "5b0bd047-2a7d-47d2-8758-1ed2739abc4a")
 	)
+	(text "ConductorV2 amplifier"
+		(exclude_from_sim no)
+		(at 137.16 54.61 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "5c1c9ecf-2cd4-49ea-ac3d-bf3f1393dfc6")
+	)
 	(text "10mA"
 		(exclude_from_sim no)
 		(at 175.4294 54.4693 0)
@@ -3463,12 +3473,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "355a19ec-9a23-4be6-b03a-f6c529ff20ca")
-	)
-	(junction
-		(at 205.74 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b651d46-0293-4689-be1d-3f7d1405f071")
 	)
 	(junction
 		(at 153.67 66.04)
@@ -4316,16 +4320,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 86.36 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbb9307-094c-437a-a944-c9529fd5c7e8")
-	)
-	(wire
-		(pts
 			(xy 123.19 134.62) (xy 130.81 134.62)
 		)
 		(stroke
@@ -4546,16 +4540,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 149.86) (xy 201.93 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbb7094-4c5c-4274-8454-7ca4224bb128")
-	)
-	(wire
-		(pts
 			(xy 148.59 119.38) (xy 154.94 119.38)
 		)
 		(stroke
@@ -4693,6 +4677,16 @@
 			(type default)
 		)
 		(uuid "c236bbc1-a560-4a7b-bff2-5256ef0c53e5")
+	)
+	(wire
+		(pts
+			(xy 201.93 149.86) (xy 205.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45b4f7a-e64c-47ea-bd24-3dc0cbedbbb3")
 	)
 	(polyline
 		(pts
@@ -7359,7 +7353,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 205.74 149.86 180)
+		(at 201.93 149.86 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7370,7 +7364,7 @@
 		(fields_autoplaced yes)
 		(uuid "a770751b-74af-48c7-a94c-c72f005bb9b5")
 		(property "Reference" "#FLG01"
-			(at 205.74 151.765 0)
+			(at 201.93 151.765 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,7 +7375,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 205.74 154.94 0)
+			(at 201.93 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,7 +7386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 149.86 0)
+			(at 201.93 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,7 +7397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 149.86 0)
+			(at 201.93 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7414,7 +7408,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 205.74 149.86 0)
+			(at 201.93 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7837,7 +7831,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 86.36 101.6 0)
+		(at 86.36 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7848,7 +7842,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ba04ca-755d-4d25-b658-4f7dc0b4d321")
 		(property "Reference" "#FLG03"
-			(at 86.36 99.695 0)
+			(at 86.36 100.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7859,7 +7853,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 86.36 96.52 0)
+			(at 86.36 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7870,7 +7864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 101.6 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7881,7 +7875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 101.6 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +7886,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 86.36 101.6 0)
+			(at 86.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
