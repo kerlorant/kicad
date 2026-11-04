@@ -49,9 +49,7 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
@@ -92,9 +90,9 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 47,
-          "pos_y": 255,
-          "size_x": 1233,
+          "pos_x": 52,
+          "pos_y": 392,
+          "size_x": 1237,
           "size_y": 465
         }
       }
