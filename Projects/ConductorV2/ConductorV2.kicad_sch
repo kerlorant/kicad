@@ -3432,7 +3432,7 @@
 		)
 		(uuid "5c1c9ecf-2cd4-49ea-ac3d-bf3f1393dfc6")
 	)
-	(text "10mA"
+	(text "12mA"
 		(exclude_from_sim no)
 		(at 175.4294 54.4693 0)
 		(effects
@@ -3452,7 +3452,7 @@
 		)
 		(uuid "d09a689b-754b-4fef-9807-e917e4a72cdc")
 	)
-	(text "10\nmA"
+	(text "15mA"
 		(exclude_from_sim no)
 		(at 163.0622 143.9907 0)
 		(effects
@@ -6789,7 +6789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k7 vagy 4k3 ?"
+		(property "Value" "2k7"
 			(at 165.1 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7685,7 +7685,7 @@
 		(dnp no)
 		(uuid "ab750f03-0e20-47c1-9ba7-5db16b11cecc")
 		(property "Reference" "R16"
-			(at 166.37 148.59 90)
+			(at 163.83 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7694,8 +7694,8 @@
 				)
 			)
 		)
-		(property "Value" "1k5"
-			(at 157.48 147.4686 90)
+		(property "Value" "1k2"
+			(at 157.48 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8435,7 +8435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100uF"
 			(at 137.16 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,7 +8666,7 @@
 		(dnp no)
 		(uuid "d30d2901-a34e-44d9-aabf-45aa342485e7")
 		(property "Reference" "R18"
-			(at 119.38 137.16 90)
+			(at 118.11 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8676,7 +8676,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 119.38 139.7 90)
+			(at 118.11 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
