@@ -651,6 +651,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "000_Small_Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000_Small_Device:GNDD"
 			(power global)
 			(pin_numbers
@@ -7045,6 +7197,12 @@
 		(uuid "22146c47-1464-452f-80dd-e28def27aee4")
 	)
 	(junction
+		(at 182.88 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2669d034-1504-4bd1-bcf5-48fa765a0843")
+	)
+	(junction
 		(at 227.33 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7067,6 +7225,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3235fddd-c34f-426e-98c3-ab9514a3a507")
+	)
+	(junction
+		(at 115.57 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "325c83f9-1ab6-4727-8382-6ae66d49c772")
 	)
 	(junction
 		(at 62.23 92.71)
@@ -7123,12 +7287,6 @@
 		(uuid "5b9c9dfa-a8e1-4379-a114-52fccabfeac7")
 	)
 	(junction
-		(at 182.88 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c93ddc9-1010-45e6-b5a4-8a2b4aa6dc42")
-	)
-	(junction
 		(at 161.29 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7153,12 +7311,6 @@
 		(uuid "62da0dac-4158-4c1d-b00a-f4b60070c0e5")
 	)
 	(junction
-		(at 182.88 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b7d503c-9ab2-4fdf-aab7-29090089a343")
-	)
-	(junction
 		(at 248.92 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7169,6 +7321,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72e03821-32ea-4a3f-8ea3-ec6d3302ed9a")
+	)
+	(junction
+		(at 115.57 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f57208-f382-436a-a82d-ee824bd3c52b")
 	)
 	(junction
 		(at 210.82 78.74)
@@ -7351,6 +7509,12 @@
 		(uuid "dad20a4a-6c72-44aa-954e-98435dd5046c")
 	)
 	(junction
+		(at 182.88 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de8fe917-0ed4-4dd4-82e8-e535b6199e96")
+	)
+	(junction
 		(at 222.25 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7472,6 +7636,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 128.27) (xy 115.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e00235-7820-4272-b974-0d64192c026a")
+	)
+	(wire
+		(pts
 			(xy 151.13 130.81) (xy 151.13 123.19)
 		)
 		(stroke
@@ -7519,6 +7693,26 @@
 			(type default)
 		)
 		(uuid "14ccf5be-7c26-4578-892c-1f5553e30143")
+	)
+	(wire
+		(pts
+			(xy 115.57 125.73) (xy 115.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158e74db-2092-4abe-9050-88f91e99ce83")
+	)
+	(wire
+		(pts
+			(xy 184.15 138.43) (xy 182.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c59981-2322-47b7-b606-c0a9783cdac5")
 	)
 	(wire
 		(pts
@@ -7962,6 +8156,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c6d984-3be1-41cc-adf1-da06915edcb5")
+	)
+	(wire
+		(pts
 			(xy 227.33 106.68) (xy 227.33 107.95)
 		)
 		(stroke
@@ -8332,6 +8536,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1b10cf-74d0-4fc4-bac1-f321689880b4")
+	)
+	(wire
+		(pts
 			(xy 85.09 49.53) (xy 85.09 100.33)
 		)
 		(stroke
@@ -8489,6 +8703,16 @@
 			(type default)
 		)
 		(uuid "692a1cb9-0a41-4a96-ae8e-4b0d7d716948")
+	)
+	(wire
+		(pts
+			(xy 194.31 138.43) (xy 191.77 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8e50a1-1131-4cfa-850d-6f76cc05422b")
 	)
 	(wire
 		(pts
@@ -9302,6 +9526,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 123.19) (xy 185.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e7d26e-6ce9-4086-813a-a57a51871113")
+	)
+	(wire
+		(pts
 			(xy 234.95 97.79) (xy 227.33 97.79)
 		)
 		(stroke
@@ -9660,6 +9894,16 @@
 		)
 		(uuid "e43747e9-6d3d-4ca0-bc63-51232ae72fb3")
 	)
+	(wire
+		(pts
+			(xy 115.57 120.65) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62c839d-4266-464e-987c-336a285905d8")
+	)
 	(polyline
 		(pts
 			(xy 100.33 102.87) (xy 100.33 107.95)
@@ -9709,6 +9953,16 @@
 			(type default)
 		)
 		(uuid "e83489ce-e9b7-465a-9ac9-19b1460c94a2")
+	)
+	(wire
+		(pts
+			(xy 194.31 111.76) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9457876-eec9-477a-bc61-1bd68753c873")
 	)
 	(wire
 		(pts
@@ -10304,6 +10558,95 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Small_Device:Csatlakozo")
+		(at 105.41 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a88ca64-20d7-4c28-a728-549774b020fa")
+		(property "Reference" "Csatlakozó1"
+			(at 102.2293 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.3 1.3)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 105.41 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 130.302 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Érték2" "csatlakozó"
+			(at 102.2293 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "fe80569f-913a-44c6-b756-1ee38a4b56e5")
+		)
+		(instances
+			(project "Eloerosito"
+				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
+					(reference "Csatlakozó1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000_Small_Device:Power")
 		(at 64.77 62.23 180)
 		(unit 1)
@@ -10850,6 +11193,95 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Small_Device:Csatlakozo")
+		(at 105.41 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "219ee659-8963-482b-a4d3-7d507fdac531")
+		(property "Reference" "Csatlakoz1"
+			(at 102.2293 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.3 1.3)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 105.41 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 120.142 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Érték2" "csatlakozó"
+			(at 102.2293 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4390f7a3-a783-4ccc-a66e-d38128dc429c")
+		)
+		(instances
+			(project "Eloerosito"
+				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
+					(reference "Csatlakoz1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_4")
 		(lib_id "000_Small_Device:C")
 		(at 161.29 133.35 0)
@@ -11104,6 +11536,85 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Small_Device:Fuse")
+		(at 187.96 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ac4a09f-15d6-4563-9468-f5b6d04e9ee2")
+		(property "Reference" "F1"
+			(at 187.96 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A"
+			(at 187.96 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 113.538 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 187.96 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c3b80e5-7b63-43a9-a4b8-99b30773f8a0")
+		)
+		(pin "2"
+			(uuid "9821968f-0176-468e-b194-2ab3416c99b8")
+		)
+		(instances
+			(project "Eloerosito"
+				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_3")
 		(lib_id "000_Small_Device:C")
 		(at 179.07 133.35 0)
@@ -11279,8 +11790,8 @@
 		)
 	)
 	(symbol
-		(lib_id "000_Small_Device:Power")
-		(at 182.88 138.43 270)
+		(lib_id "000_Small_Device:Fuse")
+		(at 109.22 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11288,11 +11799,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "327ac283-1b7d-44d1-8d41-8e79ebb2dc67")
-		(property "Reference" "#PWR06"
-			(at 179.07 138.43 0)
-			(hide yes)
+		(uuid "31db3b03-8f32-43e5-bea4-177bfb1610f5")
+		(property "Reference" "F3"
+			(at 109.22 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11301,19 +11810,18 @@
 				)
 			)
 		)
-		(property "Value" "-15V"
-			(at 187.96 138.4299 90)
+		(property "Value" "0,2A"
+			(at 109.22 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 138.43 0)
+			(at 109.22 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11324,7 +11832,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 138.43 0)
+			(at 109.22 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 109.22 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05b73076-a0d0-46ea-925d-099a9424c707")
+		)
+		(pin "1"
+			(uuid "eed83124-2cf4-48da-bf5f-8b7ab7923492")
+		)
+		(instances
+			(project "Eloerosito"
+				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Small_Device:Power")
+		(at 194.31 138.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "327ac283-1b7d-44d1-8d41-8e79ebb2dc67")
+		(property "Reference" "#PWR06"
+			(at 190.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 198.12 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11335,7 +11924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 182.88 138.43 0)
+			(at 194.31 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13476,6 +14065,85 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Small_Device:Fuse")
+		(at 187.96 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72010051-369b-4542-aaa3-6474d6ff4b11")
+		(property "Reference" "F2"
+			(at 187.96 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A"
+			(at 187.96 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 187.96 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86eded56-ca5f-41db-887f-f8e2d8049279")
+		)
+		(pin "2"
+			(uuid "e836c2b4-289b-43ad-bdf1-a3b6d661196d")
+		)
+		(instances
+			(project "Eloerosito"
+				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_14")
 		(lib_id "000_Small_Device:C")
 		(at 222.25 102.87 0)
@@ -14119,7 +14787,7 @@
 	)
 	(symbol
 		(lib_id "000_Small_Device:Power")
-		(at 185.42 123.19 270)
+		(at 194.31 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14129,7 +14797,7 @@
 		(dnp no)
 		(uuid "8552be55-1a19-41b9-be45-434dae04b908")
 		(property "Reference" "#PWR07"
-			(at 181.61 123.19 0)
+			(at 190.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14140,7 +14808,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 123.19 90)
+			(at 198.12 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14151,7 +14819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 123.19 0)
+			(at 194.31 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14162,7 +14830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 123.19 0)
+			(at 194.31 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14173,7 +14841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 185.42 123.19 0)
+			(at 194.31 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17035,6 +17703,88 @@
 		)
 	)
 	(symbol
+		(lib_name "C_4")
+		(lib_id "000_Small_Device:C")
+		(at 115.57 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d60dec77-ed7e-4277-8b3d-6365d7a6b003")
+		(property "Reference" "C28"
+			(at 109.22 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330n/400V"
+			(at 109.22 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46b8284b-6d96-4497-9b0c-c30b57ca15c6")
+		)
+		(pin "2"
+			(uuid "380e31f4-dea3-47ea-895a-0fc6c5bf5094")
+		)
+		(instances
+			(project "Eloerosito"
+				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000_Small_Device:R")
 		(at 227.33 72.39 0)
 		(unit 1)
@@ -17501,7 +18251,7 @@
 	)
 	(symbol
 		(lib_id "000_Small_Device:Power")
-		(at 182.88 111.76 270)
+		(at 194.31 111.76 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17509,10 +18259,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e29dd7eb-eb20-4925-8c34-53939b0c1995")
 		(property "Reference" "#PWR05"
-			(at 179.07 111.76 0)
+			(at 190.5 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17523,7 +18272,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 187.96 111.7599 90)
+			(at 198.12 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17534,7 +18283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 111.76 0)
+			(at 194.31 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17545,7 +18294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 111.76 0)
+			(at 194.31 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17556,7 +18305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 182.88 111.76 0)
+			(at 194.31 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

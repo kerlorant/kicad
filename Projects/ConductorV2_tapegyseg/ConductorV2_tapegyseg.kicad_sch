@@ -453,7 +453,159 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "000_Small_Device:PWR_FLAG"
+		(symbol "000_Small_Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000_Small_Device:Power"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -467,8 +619,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG01"
-				(at 0 1.905 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -478,8 +630,8 @@
 					)
 				)
 			)
-			(property "Value" "PWR_FLAG"
-				(at 0 5.08 0)
+			(property "Value" "+12V0"
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -510,7 +662,7 @@
 					)
 				)
 			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -521,7 +673,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "flag power"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -532,8 +684,46 @@
 					)
 				)
 			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
+			(symbol "Power_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_1_1"
+				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(name ""
@@ -549,20 +739,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -1291,6 +1467,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Power_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "ConductorV2 Tápegység"
 		(exclude_from_sim no)
@@ -1333,12 +1648,6 @@
 		(uuid "387fb17e-8b24-4296-914a-725370c72f49")
 	)
 	(junction
-		(at 175.26 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44a8d528-e26f-4cf1-a12c-a5969e4b9e33")
-	)
-	(junction
 		(at 165.1 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1369,10 +1678,22 @@
 		(uuid "666b8c18-a194-4022-bac1-a79388a8cb80")
 	)
 	(junction
+		(at 175.26 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc8a2b0-97b3-43c6-8d0e-805f437c1ae6")
+	)
+	(junction
 		(at 160.02 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "770e1ea8-da11-4e0b-a963-5c4dc5482cc1")
+	)
+	(junction
+		(at 102.87 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c193f48-21a5-481e-90d2-1a3a95398d6d")
 	)
 	(junction
 		(at 123.19 99.06)
@@ -1393,6 +1714,12 @@
 		(uuid "bb2d5c71-aee4-493a-a402-274a6d67684a")
 	)
 	(junction
+		(at 175.26 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc46d188-c6b5-42b5-8ba9-728b0d726ee9")
+	)
+	(junction
 		(at 123.19 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1411,12 +1738,6 @@
 		(uuid "d3b0d895-a271-4e0b-a6ca-3f06ccf1dfeb")
 	)
 	(junction
-		(at 102.87 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5208f88-c68a-45f2-a2f3-b2af8ea62adb")
-	)
-	(junction
 		(at 154.94 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1428,12 +1749,6 @@
 		(color 0 0 0 0)
 		(uuid "efc3836d-f650-4d9b-ae50-511164512733")
 	)
-	(junction
-		(at 175.26 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1fd2761-9c94-4b1c-8b65-b48eb965cefc")
-	)
 	(wire
 		(pts
 			(xy 165.1 100.33) (xy 165.1 97.79)
@@ -1443,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "09e293cb-3bee-48ea-995a-759f6d27c07b")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 92.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18711649-e285-47ea-860d-d003e30c09da")
 	)
 	(wire
 		(pts
@@ -1476,6 +1801,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b50493e-abf4-448f-87ea-1e9dbb48646b")
+	)
+	(wire
+		(pts
 			(xy 132.08 88.9) (xy 123.19 88.9)
 		)
 		(stroke
@@ -1503,16 +1838,6 @@
 			(type default)
 		)
 		(uuid "3b3a9061-34cd-4073-9213-20a3679fda97")
-	)
-	(wire
-		(pts
-			(xy 99.06 93.98) (xy 102.87 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3baaf6ed-3140-43cf-b6a9-2f604c654dc2")
 	)
 	(wire
 		(pts
@@ -1706,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 88.9) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894a8672-d722-480b-8919-afda2ac11d12")
+	)
+	(wire
+		(pts
 			(xy 140.97 90.17) (xy 140.97 88.9)
 		)
 		(stroke
@@ -1854,6 +2189,16 @@
 		)
 		(uuid "bccdc246-680a-4621-a16a-96c24a2cd843")
 	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be56e4e5-ea8d-4b72-a0ed-e78e167ae7d3")
+	)
 	(polyline
 		(pts
 			(xy -152.4 40.64) (xy -7.62 40.64)
@@ -1893,6 +2238,16 @@
 			(type default)
 		)
 		(uuid "c92efa83-5f67-492a-ad4e-82bb9d8739e0")
+	)
+	(wire
+		(pts
+			(xy 180.34 97.79) (xy 175.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53c3291-832b-413d-9b70-c28245bf2cc5")
 	)
 	(wire
 		(pts
@@ -2016,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 102.87 104.14)
+			(xy 92.71 104.14) (xy 102.87 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2509,6 +2864,85 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Small_Device:Power")
+		(at 180.34 106.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25517007-9d1c-41eb-92b7-9b431c8400dd")
+		(property "Reference" "#PWR02"
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-30V"
+			(at 184.15 106.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbd63dfb-bbcd-4fae-9498-dc74bc8fe35a")
+		)
+		(instances
+			(project "ConductorV2_tapegyseg"
+				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000_Small_Device:C_P")
 		(at 170.18 102.87 0)
 		(unit 1)
@@ -2870,8 +3304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "000_Small_Device:PWR_FLAG")
-		(at 175.26 97.79 270)
+		(lib_id "000_Small_Device:Power")
+		(at 180.34 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2880,9 +3314,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42025692-6c39-47b0-bb31-ff64cd275367")
-		(property "Reference" "#FLG03"
-			(at 177.165 97.79 0)
+		(uuid "4b646d80-c5b5-49a0-97e0-061f51c630ef")
+		(property "Reference" "#PWR01"
+			(at 176.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,19 +3326,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 179.07 97.7899 90)
+		(property "Value" "+30V"
+			(at 184.15 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2 2)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 97.79 0)
+			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,7 +3349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 97.79 0)
+			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,8 +3359,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 175.26 97.79 0)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 180.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2937,12 +3371,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9b9d61e-12de-4c0f-bdbd-491b0ee6c3c8")
+			(uuid "f7270daf-3ec7-4889-a41b-89d5d11b02c0")
 		)
 		(instances
 			(project "ConductorV2_tapegyseg"
 				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
-					(reference "#FLG03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2950,7 +3384,7 @@
 	)
 	(symbol
 		(lib_id "000_Small_Device:Csatlakozo")
-		(at 99.06 105.41 180)
+		(at 92.71 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2961,7 +3395,7 @@
 		(fields_autoplaced yes)
 		(uuid "75b002c6-9841-45d3-83dd-799c8e70f953")
 		(property "Reference" "Csatlakozó1"
-			(at 95.8793 99.06 0)
+			(at 89.5293 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +3406,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 99.06 105.41 0)
+			(at 92.71 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2982,7 +3416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 106.172 0)
+			(at 92.71 106.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +3427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 105.41 0)
+			(at 92.71 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3004,7 +3438,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 105.41 0)
+			(at 92.71 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3015,7 +3449,7 @@
 			)
 		)
 		(property "Érték2" "csatlakozó"
-			(at 95.8793 101.6 0)
+			(at 89.5293 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,6 +3566,86 @@
 		)
 	)
 	(symbol
+		(lib_name "Power_1")
+		(lib_id "000_Small_Device:Power")
+		(at 180.34 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85f0d85e-fa69-435c-ae4d-2bad237354dc")
+		(property "Reference" "#PWR03"
+			(at 176.53 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 180.34 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "415e9353-2bb8-4e4f-a65c-08b65178da09")
+		)
+		(instances
+			(project "ConductorV2_tapegyseg"
+				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000_Small_Device:C")
 		(at 123.19 105.41 0)
 		(unit 1)
@@ -3207,85 +3721,6 @@
 			(project "ConductorV2_tapegyseg"
 				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_Small_Device:PWR_FLAG")
-		(at 175.26 106.68 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95f6d684-98e9-42f5-b4ab-ab9350fb7811")
-		(property "Reference" "#FLG02"
-			(at 177.165 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-30V"
-			(at 179.07 106.6799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2 2)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 175.26 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "346a9a79-593f-4b51-8692-89d8f1fb13c2")
-		)
-		(instances
-			(project "ConductorV2_tapegyseg"
-				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3386,85 +3821,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000_Small_Device:PWR_FLAG")
-		(at 175.26 88.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccdcecac-0974-4c66-9efe-5211739eebb9")
-		(property "Reference" "#FLG01"
-			(at 177.165 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+30V"
-			(at 179.07 88.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2 2)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 175.26 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f1d8583-aaae-45fe-97c8-6572c6ddd70b")
-		)
-		(instances
-			(project "ConductorV2_tapegyseg"
-				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "000_Small_Device:C_P")
 		(at 170.18 92.71 0)
 		(unit 1)
@@ -3559,7 +3915,7 @@
 	)
 	(symbol
 		(lib_id "000_Small_Device:Csatlakozo")
-		(at 99.06 95.25 180)
+		(at 92.71 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3570,7 +3926,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5d9d504-0ad1-47ae-bac1-de29d79d5018")
 		(property "Reference" "Csatlakozó1"
-			(at 95.8793 88.9 0)
+			(at 89.5293 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3581,7 +3937,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 99.06 95.25 0)
+			(at 92.71 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3591,7 +3947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 96.012 0)
+			(at 92.71 96.012 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3602,7 +3958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 95.25 0)
+			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,7 +3969,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 95.25 0)
+			(at 92.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +3980,7 @@
 			)
 		)
 		(property "Érték2" "csatlakozó"
-			(at 95.8793 91.44 0)
+			(at 89.5293 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,6 +4165,85 @@
 			(project "ConductorV2_tapegyseg"
 				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
 					(reference "Bridge1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Small_Device:Fuse")
+		(at 97.79 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9aeda47-f5b8-4017-a2a8-693f53c30955")
+		(property "Reference" "F3"
+			(at 97.79 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0,5A"
+			(at 97.79 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 95.758 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 97.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2a4953a-29be-4560-8f7d-0bb132680c3c")
+		)
+		(pin "2"
+			(uuid "423e23df-52ea-4910-bac1-c93c63b685c8")
+		)
+		(instances
+			(project "ConductorV2_tapegyseg"
+				(path "/e32c155d-bbe3-4af9-b5cc-ba13e8c8488c"
+					(reference "F3")
 					(unit 1)
 				)
 			)

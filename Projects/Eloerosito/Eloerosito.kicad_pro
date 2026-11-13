@@ -433,7 +433,7 @@
         "uuid": "798fa250-c5e0-4159-bbc2-110d68d75d99"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR1-36,AK1,C1-44,Csatlakoz1-14,Csatlakozó1,D1-6,NT1,P1-22,P10A1-2,R1-42,RV1,SW1-9,T1,U1-10,Végfokhoz1-2",
+    "used_designators": "#FLG1-3,#PWR1-36,AK1,C1-44,Csatlakoz1-14,Csatlakozó1,D1-6,F1-3,NT1,P1-22,P10A1-2,R1-42,RV1,SW1-9,T1,U1-10,Végfokhoz1-2",
     "variants": []
   },
   "sheets": [

@@ -794,6 +794,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "000_Small_Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000_Small_Device:GNDD"
 			(power global)
 			(pin_numbers
@@ -5901,12 +6053,6 @@
 		(uuid "b6926198-489e-4319-adbe-2ac5905e1422")
 	)
 	(junction
-		(at 68.58 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b95d85a6-a524-4e60-9783-d1065cdf23d7")
-	)
-	(junction
 		(at 148.59 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5965,6 +6111,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dff5e74d-f342-4838-ad50-63dd51996481")
+	)
+	(junction
+		(at 68.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4cd48b5-52f3-4714-8f9a-8492e90e2ec1")
 	)
 	(junction
 		(at 68.58 105.41)
@@ -6249,6 +6401,16 @@
 			(type default)
 		)
 		(uuid "23751b44-b734-4a26-a71a-bb112b6befe1")
+	)
+	(wire
+		(pts
+			(xy 68.58 67.31) (xy 68.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ebe817-7fc8-4edf-af8a-5c13bbcbe4f6")
 	)
 	(wire
 		(pts
@@ -7252,16 +7414,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 68.58 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a247b443-2aaf-4b22-be5e-496b8041e2a0")
-	)
-	(wire
-		(pts
 			(xy 73.66 132.08) (xy 74.93 132.08)
 		)
 		(stroke
@@ -7899,6 +8051,16 @@
 			(type default)
 		)
 		(uuid "fa7e1dab-73af-4ce1-a8ed-6473aee6a35c")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac69d0d-73e6-48b3-a6f2-07d5dd81dd49")
 	)
 	(wire
 		(pts
@@ -12092,6 +12254,88 @@
 			(project "ZaborszkyVedelem"
 				(path "/e1c51cef-4573-421c-80e0-19d6e8260af0"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000_Small_Device:Fuse")
+		(at 68.58 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c2322b-73e7-44d9-9256-5af92405f287")
+		(property "Reference" "F1"
+			(at 71.12 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,4A"
+			(at 71.12 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.802 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 68.58 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07be94a9-795f-4805-a01b-92a295450002")
+		)
+		(pin "2"
+			(uuid "ac830183-d15d-482c-9c28-3f7f28254550")
+		)
+		(instances
+			(project "ZaborszkyVedelem"
+				(path "/e1c51cef-4573-421c-80e0-19d6e8260af0"
+					(reference "F1")
 					(unit 1)
 				)
 			)
