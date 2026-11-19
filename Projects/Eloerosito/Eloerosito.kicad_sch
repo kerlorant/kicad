@@ -10569,7 +10569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a88ca64-20d7-4c28-a728-549774b020fa")
-		(property "Reference" "Csatlakozó1"
+		(property "Reference" "Csatlakoz?"
 			(at 102.2293 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10640,7 +10640,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakozó1")
+					(reference "Csatlakoz?")
 					(unit 1)
 				)
 			)
@@ -10904,7 +10904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a39ee13-eb9d-426f-b8fc-007de74eafa2")
-		(property "Reference" "P12A"
+		(property "Reference" "P12A1"
 			(at 157.48 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11002,7 +11002,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P12A")
+					(reference "P12A1")
 					(unit 1)
 				)
 			)
@@ -12545,7 +12545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fea3a05-220b-421a-8f2b-beba2d552967")
-		(property "Reference" "SW8A...SW12A"
+		(property "Reference" "SW8A...SW12A1"
 			(at 243.84 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12632,7 +12632,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "SW8A...SW12A")
+					(reference "SW8A...SW12A1")
 					(unit 1)
 				)
 			)
@@ -12833,7 +12833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5422d723-d522-488e-a04c-f428ac36c8c3")
-		(property "Reference" "P10A"
+		(property "Reference" "P10A1"
 			(at 109.22 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12933,7 +12933,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P10A")
+					(reference "P10A1")
 					(unit 1)
 				)
 			)
@@ -13127,7 +13127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c8d7f55-5974-423c-82b0-17a899dd2881")
-		(property "Reference" "P11A"
+		(property "Reference" "P11A1"
 			(at 156.21 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13225,7 +13225,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P11A")
+					(reference "P11A1")
 					(unit 1)
 				)
 			)
@@ -13879,7 +13879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e8cfbbf-6f97-44ce-906b-1389c8af0435")
-		(property "Reference" "P13A"
+		(property "Reference" "P13A1"
 			(at 199.39 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13979,7 +13979,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P13A")
+					(reference "P13A1")
 					(unit 1)
 				)
 			)
@@ -17081,7 +17081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ea576e-8787-412e-811c-b93f4441157a")
-		(property "Reference" "SW1A...SW5A"
+		(property "Reference" "SW1A...SW5A1"
 			(at 93.98 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17168,7 +17168,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "SW1A...SW5A")
+					(reference "SW1A...SW5A1")
 					(unit 1)
 				)
 			)
