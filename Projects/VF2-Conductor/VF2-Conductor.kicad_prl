@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Conductor_aramkorlatos.kicad_prl",
+    "filename": "VF2-Conductor.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -87,7 +87,7 @@
   "project": {
     "files": [
       {
-        "name": "Conductor_aramkorlatos.kicad_sch",
+        "name": "VF2-Conductor.kicad_sch",
         "open": false,
         "window": {
           "display": 0,

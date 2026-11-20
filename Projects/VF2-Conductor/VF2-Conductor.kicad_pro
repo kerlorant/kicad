@@ -257,7 +257,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Conductor_aramkorlatos.kicad_pro",
+    "filename": "VF2-Conductor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -425,17 +425,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Conductor_aramkorlatos.kicad_sch",
+        "filename": "VF2-Conductor.kicad_sch",
         "name": "Gyökér",
-        "uuid": "87a33ec4-ab60-4679-9e9a-a5a4f023f6e3"
+        "uuid": "2ed975fe-d70e-4d19-9f6b-97de21af71d0"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR1-5,AK1,C1-6,D1-8,F1-2,GND1,IN1,OUT1,R1-30,T1-9,U1,VCC1-2",
+    "used_designators": "#FLG1-3,#PWR1-7,C1-8,D1-8,F1-2,GND1,IN1,OUT1,R1-27,T1-7,U1,VCC1-2",
     "variants": []
   },
   "sheets": [
     [
-      "87a33ec4-ab60-4679-9e9a-a5a4f023f6e3",
+      "2ed975fe-d70e-4d19-9f6b-97de21af71d0",
       "Gyökér"
     ]
   ],
