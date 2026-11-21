@@ -6264,7 +6264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0563aea3-5ca1-4db0-b73f-0c9a45226c9a")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 201.93 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +6326,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6423,7 +6423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09827c2e-c97d-4c5b-9c76-80de98858d54")
-		(property "Reference" "R8"
+		(property "Reference" "P2"
 			(at 110.49 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6488,7 +6488,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R8")
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -6848,7 +6848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18f10332-91f7-4ed0-b4de-4b8fc17cae44")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 88.9 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,7 +6912,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6929,7 +6929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19bbcffd-adbe-45d7-8cdc-1617cef03c64")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 140.97 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,7 +6993,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7093,7 +7093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1da9f955-ebe5-435e-96ec-29d4d7bbdaf2")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 171.45 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,7 +7157,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7174,7 +7174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fa4915e-5702-4e3e-80d1-4679b35910a4")
-		(property "Reference" "R22"
+		(property "Reference" "R20"
 			(at 193.04 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7236,7 +7236,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R22")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7840,7 +7840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5263cd32-3a06-49d7-8533-e0b489144a1d")
-		(property "Reference" "R24"
+		(property "Reference" "R21"
 			(at 200.66 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7902,7 +7902,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R24")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8182,7 +8182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c1b10fc-12d7-4411-963e-f080b9691dd4")
-		(property "Reference" "R10"
+		(property "Reference" "R16"
 			(at 137.569 63.3278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8246,7 +8246,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R10")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8263,7 +8263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "710546a1-e3a6-474a-9f32-8a5af3094a8b")
-		(property "Reference" "R27"
+		(property "Reference" "R23"
 			(at 212.09 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8327,7 +8327,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R27")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8426,7 +8426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8285b418-d608-404a-acd9-97cb7a9a93b3")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 166.37 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8488,7 +8488,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8689,7 +8689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c87179c-3358-4e8c-b4ec-a6141a84fcee")
-		(property "Reference" "R6"
+		(property "Reference" "P1"
 			(at 109.22 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8756,7 +8756,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R6")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -8773,7 +8773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8deb24b1-1175-4318-91a9-fc7eb73a485b")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 131.5218 133.8719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,7 +8837,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9020,7 +9020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "960c2dcc-f8b0-4610-a38a-8aaa3b12f270")
-		(property "Reference" "R14"
+		(property "Reference" "R9"
 			(at 140.97 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9084,7 +9084,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R14")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9554,7 +9554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a47a2678-7501-4d9c-89fc-cbe1a2e356f2")
-		(property "Reference" "R18"
+		(property "Reference" "R11"
 			(at 165.1 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9618,7 +9618,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R18")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9635,7 +9635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a48110b2-f3e6-4c70-bb74-88200448cdd5")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 158.75 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9699,7 +9699,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10318,7 +10318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1b015c2-0aa1-4d0a-82e2-308e433b738e")
-		(property "Reference" "R26"
+		(property "Reference" "R22"
 			(at 212.09 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10382,7 +10382,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R26")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10586,7 +10586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8492c97-4558-4121-af0a-fa3efcce92fc")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 193.04 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10648,7 +10648,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10665,7 +10665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce7dc4ff-63c2-4a77-972e-a55039a66321")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 88.9 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10727,7 +10727,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10744,7 +10744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce866a68-8540-4abc-a048-f6fe98f3e36b")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 152.4 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10808,7 +10808,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10825,7 +10825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce936d99-6b4c-41f8-abe1-57e358f39e0d")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 124.46 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +10889,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11087,7 +11087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1eb999d-b27d-47ed-a79e-b1e713f80b90")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 99.06 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,7 +11151,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11168,7 +11168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d41864e2-4454-412f-9f14-0668867a61d3")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 109.22 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11230,7 +11230,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11328,7 +11328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e085d0b9-bb0f-4d1d-bd96-7b7def708afc")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 137.569 72.2178 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11392,7 +11392,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11755,7 +11755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc634d86-2ffc-4637-95ff-dfce9887d237")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 156.21 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11817,7 +11817,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11834,7 +11834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdfa702d-12c2-480a-95e7-092913b76bbc")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 92.71 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11896,7 +11896,7 @@
 		(instances
 			(project "VF2-Conductor"
 				(path "/2ed975fe-d70e-4d19-9f6b-97de21af71d0"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)

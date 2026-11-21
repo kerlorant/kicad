@@ -2140,8 +2140,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0.254 3.302 0)
+			(property "Reference" "SW1...SW5"
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2378,6 +2378,188 @@
 				)
 			)
 			(symbol "SW_1P_TO_5P-B_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_1P_TO_5P-B_2_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -6983,6 +7165,188 @@
 					)
 				)
 			)
+			(symbol "SW_1P_TO_5P-B_1_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 	)
@@ -7084,7 +7448,7 @@
 		)
 		(uuid "b5b21cb8-5599-4d1c-8018-0b7f548bdf07")
 	)
-	(text "P10B"
+	(text "P6B"
 		(exclude_from_sim no)
 		(at 96.52 102.87 0)
 		(effects
@@ -7104,7 +7468,17 @@
 		)
 		(uuid "c3fa97f7-441f-4a81-8223-fd3347411657")
 	)
-	(text "P10A"
+	(text "Végfokhoz"
+		(exclude_from_sim no)
+		(at 251.46 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf9eba85-2fe3-4aed-a3cc-d6c072a3ecdf")
+	)
+	(text "P6A"
 		(exclude_from_sim no)
 		(at 111.76 101.6 0)
 		(effects
@@ -10256,6 +10630,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 52.07) (xy 100.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe95a61a-687b-43d8-9e56-829549400e1a")
+	)
+	(wire
+		(pts
 			(xy 87.63 54.61) (xy 87.63 125.73)
 		)
 		(stroke
@@ -10569,7 +10953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a88ca64-20d7-4c28-a728-549774b020fa")
-		(property "Reference" "Csatlakoz?"
+		(property "Reference" "Csatlakozo7"
 			(at 102.2293 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10640,7 +11024,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakoz?")
+					(reference "Csatlakozo7")
 					(unit 1)
 				)
 			)
@@ -10814,7 +11198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f4543c-ac51-43e6-ae33-65361d3d91ee")
-		(property "Reference" "Csatlakoz7"
+		(property "Reference" "Csatlakozo3"
 			(at 78.0993 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10886,7 +11270,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakoz7")
+					(reference "Csatlakozo3")
 					(unit 1)
 				)
 			)
@@ -10904,7 +11288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a39ee13-eb9d-426f-b8fc-007de74eafa2")
-		(property "Reference" "P12A1"
+		(property "Reference" "P8"
 			(at 157.48 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11002,7 +11386,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P12A1")
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -11204,7 +11588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "219ee659-8963-482b-a4d3-7d507fdac531")
-		(property "Reference" "Csatlakoz1"
+		(property "Reference" "Csatlakozo6"
 			(at 102.2293 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11275,7 +11659,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakoz1")
+					(reference "Csatlakozo6")
 					(unit 1)
 				)
 			)
@@ -12545,7 +12929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fea3a05-220b-421a-8f2b-beba2d552967")
-		(property "Reference" "SW8A...SW12A1"
+		(property "Reference" "SW8...SW12"
 			(at 243.84 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12629,10 +13013,40 @@
 		(pin "12"
 			(uuid "ab248342-e5bd-420d-b2dc-9d0e4b3c189b")
 		)
+		(pin "11"
+			(uuid "f66cf3d8-c78e-44ec-8773-35b8e8a23da7")
+		)
+		(pin "12"
+			(uuid "ebe0b3dd-1be8-43fc-83db-3ac8a2cf28a8")
+		)
+		(pin "10"
+			(uuid "5b0c68b5-b279-4909-88b3-8f82843322e2")
+		)
+		(pin "9"
+			(uuid "7f591e89-502b-4eb4-9d93-cef81f401531")
+		)
+		(pin "10"
+			(uuid "be5926e8-d6ad-4378-9758-da302623bdf5")
+		)
+		(pin "8"
+			(uuid "758495e2-fbcc-4bd4-9b2c-da088085cbf5")
+		)
+		(pin "9"
+			(uuid "8b69917f-9d59-4bf8-8e8d-0ce912c2c277")
+		)
+		(pin "11"
+			(uuid "31fb7c15-cb74-44fd-9a41-1e2ffca6f759")
+		)
+		(pin "12"
+			(uuid "317524d4-b9e9-4828-b3e1-30a87f9454d9")
+		)
+		(pin "8"
+			(uuid "0172dd5b-63e5-49c0-8d3a-8eba4d64861e")
+		)
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "SW8A...SW12A1")
+					(reference "SW8...SW12")
 					(unit 1)
 				)
 			)
@@ -12833,7 +13247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5422d723-d522-488e-a04c-f428ac36c8c3")
-		(property "Reference" "P10A1"
+		(property "Reference" "P6"
 			(at 109.22 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12933,7 +13347,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P10A1")
+					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -13127,7 +13541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c8d7f55-5974-423c-82b0-17a899dd2881")
-		(property "Reference" "P11A1"
+		(property "Reference" "P7"
 			(at 156.21 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13225,7 +13639,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P11A1")
+					(reference "P7")
 					(unit 1)
 				)
 			)
@@ -13333,7 +13747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c8d566-877d-4fe4-a888-bdcda78d79d6")
-		(property "Reference" "Csatlakoz5"
+		(property "Reference" "Csatlakozo1"
 			(at 42.5393 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13405,7 +13819,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakoz5")
+					(reference "Csatlakozo1")
 					(unit 1)
 				)
 			)
@@ -13879,7 +14293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e8cfbbf-6f97-44ce-906b-1389c8af0435")
-		(property "Reference" "P13A1"
+		(property "Reference" "P9"
 			(at 199.39 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13979,7 +14393,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P13A1")
+					(reference "P9")
 					(unit 1)
 				)
 			)
@@ -15144,7 +15558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e407736-0df1-41d1-a555-e54be4b64d6c")
-		(property "Reference" "Csatlakoz6"
+		(property "Reference" "Csatlakozo2"
 			(at 76.8293 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15216,7 +15630,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakoz6")
+					(reference "Csatlakozo2")
 					(unit 1)
 				)
 			)
@@ -15233,7 +15647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e5a8349-2b82-478f-9f6e-56270d5c1445")
-		(property "Reference" "P8"
+		(property "Reference" "P4"
 			(at 78.74 131.0641 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15300,7 +15714,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P8")
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -15720,7 +16134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9efe3dc4-77df-47b0-bd30-2b30bd383131")
-		(property "Reference" "P9"
+		(property "Reference" "P5"
 			(at 78.74 143.7641 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15787,7 +16201,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P9")
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -16140,7 +16554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8b74ca5-b23e-4a37-9c0f-6d6238e312a4")
-		(property "Reference" "P5"
+		(property "Reference" "P1"
 			(at 77.47 86.6141 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16207,7 +16621,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P5")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -16490,7 +16904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0376034-8ed7-4ac4-84bb-f03d15a8e966")
-		(property "Reference" "Csatlakoz9"
+		(property "Reference" "Csatlakozo5"
 			(at 78.0993 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16562,7 +16976,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakoz9")
+					(reference "Csatlakozo5")
 					(unit 1)
 				)
 			)
@@ -16579,7 +16993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2bc5875-5555-43e6-b867-ea192f714de0")
-		(property "Reference" "P6"
+		(property "Reference" "P2"
 			(at 78.74 105.6641 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16646,7 +17060,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P6")
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -16743,7 +17157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0f471a-0912-4d86-8e82-a243bffad8e0")
-		(property "Reference" "Csatlakoz8"
+		(property "Reference" "Csatlakozo4"
 			(at 78.0993 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16815,7 +17229,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Csatlakoz8")
+					(reference "Csatlakozo4")
 					(unit 1)
 				)
 			)
@@ -16914,7 +17328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c28a352b-58d0-42a7-9acc-b5b6eb37c2d3")
-		(property "Reference" "P7"
+		(property "Reference" "P3"
 			(at 78.74 118.3641 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16981,7 +17395,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "P7")
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -17081,7 +17495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ea576e-8787-412e-811c-b93f4441157a")
-		(property "Reference" "SW1A...SW5A1"
+		(property "Reference" "SW1...SW5"
 			(at 93.98 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17165,10 +17579,40 @@
 		(pin "5"
 			(uuid "fda6c580-968e-426e-a451-f3eac8cd1ffe")
 		)
+		(pin "5"
+			(uuid "9bd24e2a-a7da-4feb-8ab3-4489bf939555")
+		)
+		(pin "1"
+			(uuid "49ccc09f-5ea9-49e3-b821-ea17947db239")
+		)
+		(pin "5"
+			(uuid "329b49bf-bb33-4229-b1d3-2a477dbf251d")
+		)
+		(pin "3"
+			(uuid "b2c30f3b-fcad-449f-bbb5-6a58f2942d15")
+		)
+		(pin "4"
+			(uuid "4ddab64d-9bd8-4ee3-aa7f-658e24aeab8d")
+		)
+		(pin "1"
+			(uuid "b7d7a718-88b2-4053-a1eb-bc8a8a3a652e")
+		)
+		(pin "4"
+			(uuid "4129b88a-9a63-4297-b637-8a5f25e930c6")
+		)
+		(pin "2"
+			(uuid "b5f4d734-bf91-4ba9-a8be-733a811e2815")
+		)
+		(pin "2"
+			(uuid "8449c267-94df-4ed1-bd3c-a41fe275c55d")
+		)
+		(pin "3"
+			(uuid "f05007c0-55d6-41ca-8106-33d813ef86aa")
+		)
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "SW1A...SW5A1")
+					(reference "SW1...SW5")
 					(unit 1)
 				)
 			)
@@ -17185,8 +17629,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c82defe0-c6b3-429e-befa-7c3951c25549")
-		(property "Reference" "Végfokhoz1"
+		(property "Reference" "csatlakozo8"
 			(at 254 76.2 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17257,7 +17702,7 @@
 		(instances
 			(project "Eloerosito"
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "Végfokhoz1")
+					(reference "csatlakozo8")
 					(unit 1)
 				)
 			)
