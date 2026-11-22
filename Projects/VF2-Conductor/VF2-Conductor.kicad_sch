@@ -4205,7 +4205,7 @@
 		)
 		(uuid "965a6816-d44e-4a91-a9de-aa98e701d230")
 	)
-	(text "10-12mA"
+	(text "12-14mA"
 		(exclude_from_sim no)
 		(at 155.4422 145.2607 0)
 		(effects
