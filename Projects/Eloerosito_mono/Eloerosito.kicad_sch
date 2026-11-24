@@ -13749,6 +13749,107 @@
 		)
 	)
 	(symbol
+		(lib_id "000_Small_Device:OPA2134")
+		(at 184.15 72.39 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43fc3c0f-bfa2-4fe7-865b-da39a59138f0")
+		(property "Reference" "U3"
+			(at 182.88 71.1199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2134"
+			(at 187.96 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 184.15 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 184.15 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "9a667cc6-8ef0-4bd2-b910-3695efc7a3a5")
+		)
+		(pin "3"
+			(uuid "f87e6522-ce63-4d34-b37e-bba87f554653")
+		)
+		(pin "7"
+			(uuid "6e4bc18a-4437-4534-95cb-f07ce9293f74")
+		)
+		(pin "4"
+			(uuid "7a3abb6d-373a-4e17-b943-501fc60a6b17")
+		)
+		(pin "2"
+			(uuid "ee58c7d2-3afe-4870-85ac-ef24aa15efb7")
+		)
+		(pin "6"
+			(uuid "2615b8f9-3de9-450e-b277-29b2ac2d2917")
+		)
+		(pin "5"
+			(uuid "51e11027-bc70-4e0b-83ef-d3676e497980")
+		)
+		(pin "1"
+			(uuid "ea8689a6-aa87-446e-8745-0f5f1cf58686")
+		)
+		(instances
+			(project "Eloerosito"
+				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000_Small_Device:R")
 		(at 157.48 69.85 0)
 		(unit 1)
@@ -14812,108 +14913,6 @@
 				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
 					(reference "Csatlakozo1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000_Small_Device:OPA2134")
-		(at 184.15 72.39 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62647b1d-aa69-4bc9-a49f-7fa9bb300b08")
-		(property "Reference" "U2"
-			(at 182.88 71.1199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 182.88 73.6599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 184.15 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 184.15 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b0b3af2d-ea9e-49ba-a097-4cc8899f30c3")
-		)
-		(pin "6"
-			(uuid "466e05d4-bd1a-44ce-bbb1-e31461164f6e")
-		)
-		(pin "7"
-			(uuid "ba7d4e9c-580d-433c-b03a-1052bdd47eaf")
-		)
-		(pin "2"
-			(uuid "9f1125d6-6655-4755-aa16-fdce09d3a746")
-		)
-		(pin "5"
-			(uuid "67bbd139-2799-4f89-b1c7-cf11437e09e3")
-		)
-		(pin "3"
-			(uuid "d81270b7-facf-4e31-a59a-343bd12bcefb")
-		)
-		(pin "1"
-			(uuid "12e44b3a-5840-4347-8165-451c1387b1fb")
-		)
-		(pin "8"
-			(uuid "2af3d6bd-83c0-4613-8976-69862b76e1f6")
-		)
-		(instances
-			(project "Eloerosito"
-				(path "/798fa250-c5e0-4159-bbc2-110d68d75d99"
-					(reference "U2")
-					(unit 3)
 				)
 			)
 		)

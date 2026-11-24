@@ -4857,12 +4857,6 @@
 		(uuid "070c5de2-fde4-4da6-8f25-44f7eb361f3f")
 	)
 	(junction
-		(at 96.52 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10f5660a-4cae-4066-814e-bb8706cc6637")
-	)
-	(junction
 		(at 130.81 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5121,12 +5115,6 @@
 		(uuid "f0b1a06a-2649-4d4c-9bc7-22dede47ab26")
 	)
 	(junction
-		(at 107.95 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1309cab-3913-4a84-976d-c18f47c7066e")
-	)
-	(junction
 		(at 186.69 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5145,20 +5133,10 @@
 		(uuid "f997cb4c-f599-4f16-89a0-3dc597d7bf29")
 	)
 	(junction
-		(at 96.52 128.27)
+		(at 107.95 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fcb6cc84-7990-4deb-986b-f9c9d7d7bb50")
-	)
-	(wire
-		(pts
-			(xy 96.52 140.97) (xy 107.95 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "005cc3ad-d2f5-4024-ada8-c3baf3415718")
+		(uuid "ff9a6d4e-38ad-4961-abff-4b2b04832181")
 	)
 	(wire
 		(pts
@@ -5312,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 144.78) (xy 215.9 144.78)
+			(xy 90.17 146.05) (xy 215.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6002,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 128.27) (xy 90.17 144.78)
+			(xy 90.17 128.27) (xy 90.17 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6412,7 +6390,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 95.25) (xy 215.9 144.78)
+			(xy 215.9 95.25) (xy 215.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6449,16 +6427,6 @@
 			(type default)
 		)
 		(uuid "ebfa41ab-3154-4142-b8d3-c3c5ed51ba88")
-	)
-	(wire
-		(pts
-			(xy 96.52 128.27) (xy 96.52 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec2ee70d-fe30-4894-badc-38d642b6cfd2")
 	)
 	(wire
 		(pts
@@ -10910,7 +10878,7 @@
 	)
 	(symbol
 		(lib_id "000_Small_Device:GNDD")
-		(at 96.52 140.97 270)
+		(at 107.95 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10921,7 +10889,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1107b67-40d9-41e3-a970-9b4a2b6e08f2")
 		(property "Reference" "#PWR03"
-			(at 90.17 140.97 0)
+			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10932,7 +10900,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 92.71 140.97 0)
+			(at 107.95 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10943,7 +10911,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 96.52 140.97 0)
+			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10954,7 +10922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 140.97 0)
+			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,7 +10933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 96.52 140.97 0)
+			(at 107.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
